@@ -1,0 +1,251 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الثاء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "12_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "12_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "12_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الثَّاءْ",
+          "titleenglish": "Listen and underline the letter (ث).",
+          "audio": "pagetitleaudios/13/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/13/",
+        "letter":"ث",
+        "questions": [
+          {
+            "quranaudio": "13-1",
+            "ayaverse": "سورة الزلزلة آية 4",
+            "ayaverseEnglish": "Surah Az-Zalzalah Verse 4",
+            "areas": [
+              {
+                "letterN":"ث",
+                "letter": "ثُ",
+                "x": 700,
+                "y": 500,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 130,
+                "color": "#DB2A50",
+                "audio": "tha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾ يَوۡمَئِذٖ تُحَدِّ    أَخۡبَارَهَا ﴿",
+                "x": 740,
+                "y": 450,
+                "w": 970,
+                "h": 190,
+                "time": 8000,
+                "fontsize": 130
+              }
+            ]
+          },
+          {
+            "quranaudio": "13-2",
+            "ayaverse": "سورة الحديد آية 10",
+            "ayaverseEnglish": "Surah Al-Hadid Verse 10",
+            "areas": [
+              {
+                "letterN":"ث",
+                "letter": "ثُ",
+                "x": 910,
+                "y": 590,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 110,
+                "color": "#DB2A50",
+                "audio": "tha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "وَمَا لَكُمۡ أَلَّا تُنفِقُواْ فِي سَبِيلِ ٱللَّهِ﴿",
+                "x": 740,
+                "y": 350,
+                "w": 1200,
+                "h": 180,
+                "time": 9000,
+                "fontsize": 110
+              },
+              {
+                "key": "1",
+                "text": "﴾وَلِلَّهِ مِيرَٰ    ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۚ",
+                "x": 740,
+                "y": 530,
+                "w": 1000,
+                "h": 180,
+                "time": 8000,
+                "fontsize": 110
+              }
+            ]
+          },
+          {
+            "quranaudio": "13-3",
+            "ayaverse": "سورة الضحى آية 10-11",
+            "ayaverseEnglish": "Surah Ad-Duhaa Verse 10-11",
+            "areas": [
+              {
+                "letterN":"ث",
+                "letter": "ثۡ",
+                "x": 396,
+                "y": 600,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 130,
+                "color": "#DB2A50",
+                "audio": "tha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنۡهَرۡ ١٠﴿",
+                "x": 740,
+                "y": 350,
+                "w": 980,
+                "h": 190,
+                "time": 8000,
+                "fontsize": 130
+              },
+              {
+                "key": "1",
+                "text": "﴾وَأَمَّا بِنِعۡمَةِ رَبِّكَ فَحَدِّ   ١١",
+                "x": 740,
+                "y": 550,
+                "w": 1050,
+                "h": 190,
+                "time": 8000,
+                "fontsize": 130
+              }
+            ]
+          },
+          {
+            "quranaudio": "13-4",
+            "ayaverse": "سورة الفجر آية 19",
+            "ayaverseEnglish": "Surah Al-Fajr Verse 19",
+            "areas": [
+              {
+                "letterN":"ث",
+                "letter": "ثَ",
+                "x": 683,
+                "y": 370,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 120,
+                "color": "#DB2A50",
+                "audio": "tha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "وَتَأۡكُلُونَ ٱلتُّرَا    أَكۡلٗا لَّمّٗا ١٩ ﴿",
+                "x": 740,
+                "y": 320,
+                "w": 1300,
+                "h": 190,
+                "time": 8000,
+                "fontsize": 120
+              },
+              {
+                "key": "1",
+                "text": "﴾ وَتُحِبُّونَ ٱلۡمَالَ حُبّٗا جَمّٗا ١٩ ",
+                "x": 740,
+                "y": 520,
+                "w": 1300,
+                "h": 190,
+                "time": 10000,
+                "fontsize": 120
+              }
+            ]
+          },
+          {
+            "quranaudio": "13-5",
+            "ayaverse": "سورة القارعة آية 4",
+            "ayaverseEnglish": "Surah Al-Qariah Verse 4",
+            "areas": [
+              {
+                "letterN":"ث",
+                "letter": "ثِ",
+                "x": 230,
+                "y": 500,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 110,
+                "color": "#DB2A50",
+                "audio": "tha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾ يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُو    ٤ ﴿",
+                "x": 740,
+                "y": 450,
+                "w": 1440,
+                "h": 180,
+                "time": 10000,
+                "fontsize": 110
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,141 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الهمزة",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "72_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "72_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "72_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الهَمْزَةْ",
+          "titleenglish": "Listen and underline the letter (ء).",
+          "audio": "pagetitleaudios/73/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/73/",
+        "letter":"ء",
+        "questions": [
+          {
+            "quranaudio": "73-1",
+            "ayaverse": "سورة الحاقة آية 12",
+            "ayaverseEnglish": "Surah Al-Haqqah Verse 12",
+            "areas": [
+              {
+                "letterN":"ء", "letter": "أُ", "x": 468, "y": 630, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "hamza" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ لِنَجۡعَلَهَا لَكُمۡ تَذۡكِرَةٗ وَتَعِيَهَآ  ذُنٞ وَٰعِيَةٞ ١٢ ﴿", "x": 720, "y": 580, "w": 1380, "h": 200, "time": 10000, "fontsize": 100 }
+            ]
+          },
+          {
+            "quranaudio": "73-2",
+            "ayaverse": "سورة النصر آية 1-2",
+            "ayaverseEnglish": "Surah An-Nasr Verse 1-2",
+            "areas": [
+              {
+                "letterN":"ء", "letter": "إِ", "x": 1040, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "hamza" },
+              {
+                "letterN":"ء", "letter": "ءَ", "x": 880, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "hamza" },
+              {
+                "letterN":"ء", "letter": "أَ", "x": 1244, "y": 660, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "hamza" },
+              {
+                "letterN":"ء", "letter": "أَ", "x": 410, "y": 660, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "hamza" }
+            ],
+            "frames": [
+              { "key": "1", "text": "ذَا جَآ  نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ ١   ﴿", "x": 740, "y": 480, "w": 800, "h": 180, "time": 8000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَرَ يۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِي دِينِ ٱللَّهِ  فۡوَاجٗا ٢", "x": 740, "y": 610, "w": 1200, "h": 180, "time": 13000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "73-3",
+            "ayaverse": "سورة الناس آية 1-3",
+            "ayaverseEnglish": "Surah An-Nas Verse 1-3",
+            "areas": [
+              {
+                "letterN":"ء", "letter": "أَ", "x": 1180, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "hamza" },
+              {
+                "letterN":"ء", "letter": "إِ", "x": 940, "y": 700, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "hamza" }
+            ],
+            "frames": [
+              { "key": "1", "text": "قُلۡ  عُوذُ بِرَبِّ ٱلنَّاسِ ١ مَلِكِ ٱلنَّاسِ ٢ ﴿", "x": 740, "y": 480, "w": 1240, "h": 180, "time": 12000, "fontsize": 100 },
+              { "key": "1", "text": "﴾لَٰهِ ٱلنَّاسِ ٣ ", "x": 740, "y": 660, "w": 600, "h": 180, "time": 5000, "fontsize": 100 }
+            ]
+          },
+          {
+            "quranaudio": "73-4",
+            "ayaverse": "سورة الغاشية آية 17-18",
+            "ayaverseEnglish": "Surah Al-Ghashiyah Verse 17-18",
+            "areas": [
+              {
+                "letterN":"ء", "letter": "أَ", "x": 1320, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "hamza" },
+              {
+                "letterN":"ء", "letter": "ءِ", "x": 840, "y": 680, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "hamza" }
+            ],
+             "otherAreas": [  
+              {  "letter": "بـ", "x": 775, "y": 517, "w": 60, "h": 200,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "  فَلَا يَنظُرُونَ إِلَى ٱلۡإِبِلِ كَيۡفَ خُلِقَتۡ ١٧  ﴿", "x": 740, "y": 480, "w": 1190, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "﴾وَإِلَى ٱلسَّمَآ  كَيۡفَ رُفِعَتۡ ١٨", "x": 740, "y": 630, "w": 870, "h": 180, "time": 7000, "fontsize": 100 }
+            ]
+          },
+          {
+            "quranaudio": "73-5",
+            "ayaverse": "سورة البروج آية 20-22",
+            "ayaverseEnglish": "Surah Al-Buruj Verse 20-22",
+            "areas": [
+              {
+                "letterN":"ء", "letter": "ءَ", "x": 368, "y": 500, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 96, "color": "#DB2A50", "audio": "hamza" }
+            ],
+             "otherAreas": [  
+              {  "letter": "بـ", "x": 1019, "y": 490, "w": 28, "h": 200,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ ٢٠ بَلۡ هُوَ قُرۡ انٞ مَّجِيدٞ ٢١ ﴿", "x": 740, "y": 450, "w": 1480, "h": 185, "time": 17000, "fontsize": 96 },
+              { "key": "1", "text": "﴾فِي لَوۡحٖ مَّحۡفُوظِۭ ٢٢", "x": 740, "y": 630, "w": 600, "h": 170, "time": 7000, "fontsize": 96 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

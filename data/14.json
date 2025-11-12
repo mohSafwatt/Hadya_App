@@ -1,0 +1,515 @@
+[ 
+    {
+        "pageid":"14",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب الحروف (ا-ب-ت-ث)",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "14_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "14_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "14_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames":["PhaserChoose","PhaserColoring","MatchPhaser"],
+        "autoreader": [
+          "pagetitleaudios/14/1.mp3",
+          "pagetitleaudios/14/2.mp3",
+          "pagetitleaudios/14/3.mp3"
+        ],
+        "exersices":[ 
+          
+           {
+    "type": "PhaserChoose",
+    "display": "column",
+    "titles": {
+        "id": "1",
+        "titlearabic": ".مَيِّزِ المَوْقِعَ الصَّحِيحَ لِمَكَانِ النُّقَاطِ مِنَ الحَرْفِ",
+        "titleenglish": "identify the correct placement for the dots for each letter.",
+        "audio": "pagetitleaudios/14/1.mp3",
+        "fontsize": "1.1vh"
+    },
+    "size": {
+        "gridcol": "2",
+        "gridrow": "2/4"
+    },
+    "path": "/phaserchoose/pg14/",
+    "questions": [
+        {
+            "options": [
+                {"key": "option1","x": 313,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": true,"frame": "1-1"
+                },
+                {"key": "option1","x": 739,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false,"frame": "1-2"
+                },
+                {"key": "option1","x": 1165,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false,"frame": "1-3"
+                }
+            ]
+        },
+        {
+            "options": [
+                {"key": "option1","x": 313,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false,"frame": "2-1"
+                },
+                {"key": "option1","x": 739,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": true,"frame": "2-2"
+                },
+                {"key": "option1","x": 1165,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false,"frame": "2-3"
+                }
+            ]
+        },
+        {
+            "options": [
+                {"key": "option1","x": 313,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false,"frame": "3-1"
+                },
+                {"key": "option1","x": 739,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false,"frame": "3-2"
+                },
+                {"key": "option1","x": 1165,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": true,"frame": "3-3"
+                }
+            ]
+        }
+    ]
+},
+            
+            {
+    "type": "PhaserColoring",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "2",
+        "titlearabic": ".اكتب بخط جميل",
+        "titleenglish": "trace, then copy the letter neatly",
+        "audio": "pagetitleaudios/14/2.mp3"
+    },
+    "size": {
+        "gridcol": "1",
+        "gridrow": "2/4"
+    },
+    "path": "/phasecoloring/",
+    "questions": [
+        {
+            "areas": [
+                {
+                    "letter": "ب",
+                    "x": 877,
+                    "y": 273,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 707,
+                    "y": 273,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 537,
+                    "y": 273,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 367,
+                    "y": 273,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 877,
+                    "y": 473,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 707,
+                    "y": 473,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 537,
+                    "y": 473,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 367,
+                    "y": 473,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 877,
+                    "y": 673,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 707,
+                    "y": 673,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 537,
+                    "y": 673,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 367,
+                    "y": 673,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 877,
+                    "y": 873,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 707,
+                    "y": 873,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 537,
+                    "y": 873,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                },
+                {
+                    "letter": "ب",
+                    "x": 367,
+                    "y": 873,
+                    "w": 170,
+                    "h": 170,
+                    "minStroke": 100,
+                    "letterAud": "ب"
+                }
+            ],
+            "frames": [
+                {
+                    "key": "image",
+                    "x": 730,
+                    "y": 580,
+                    "w": 900,
+                    "h": 900
+                }
+            ]
+        }
+    ]
+},
+            {
+    "type": "MatchPhaser",
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "4/6"
+    },
+    "display": "",
+    "row": 4.4,
+    "titles": {
+        "id": "4",
+        "titlearabic": "صِلِ الحَرْفَ بِمِثْلِهِ",
+        "titleenglish": "Match the identical letters",
+        "audio": "pagetitleaudios/32/4.mp3"
+    },
+    "path": "/matchPhaser/",
+    "questions": [
+        {
+            "start": [
+                {
+                    "x": 730,
+                    "y": 330,
+                    "key": "start",
+                    "target": "1",
+                    "scale": 0.5,
+                    "text": "ا",
+                    "color": "#DD485C"
+                }
+            ],
+            "target": [
+                {
+                    "x": 490,
+                    "y": 830,
+                    "key": "target",
+                    "id": "2",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ك",
+                    "color": "white"
+                },
+                {
+                    "x": 990,
+                    "y": 830,
+                    "key": "target1",
+                    "id": "1",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ا",
+                    "color": "white"
+                }
+            ],
+            "frames": []
+        },
+        {
+            "start": [
+                {
+                    "x": 730,
+                    "y": 330,
+                    "key": "start",
+                    "target": "1",
+                    "scale": 0.5,
+                    "text": "ا",
+                    "color": "#DD485C"
+                }
+            ],
+            "target": [
+                {
+                    "x": 490,
+                    "y": 830,
+                    "key": "target",
+                    "id": "2",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "أ",
+                    "color": "white"
+                },
+                {
+                    "x": 990,
+                    "y": 830,
+                    "key": "target1",
+                    "id": "1",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ا",
+                    "color": "white"
+                }
+            ],
+            "frames": []
+        },
+        {
+            "start": [
+                {
+                    "x": 730,
+                    "y": 330,
+                    "key": "start",
+                    "target": "2",
+                    "scale": 0.5,
+                    "text": "ا",
+                    "color": "#DD485C"
+                }
+            ],
+            "target": [
+                {
+                    "x": 490,
+                    "y": 830,
+                    "key": "target",
+                    "id": "2",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ا",
+                    "color": "white"
+                },
+                {
+                    "x": 990,
+                    "y": 830,
+                    "key": "target1",
+                    "id": "1",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ل",
+                    "color": "white"
+                }
+            ],
+            "frames": []
+        },
+        {
+            "start": [
+                {
+                    "x": 730,
+                    "y": 330,
+                    "key": "start",
+                    "target": "1",
+                    "scale": 0.5,
+                    "text": "ب",
+                    "color": "#DD485C"
+                }
+            ],
+            "target": [
+                {
+                    "x": 490,
+                    "y": 830,
+                    "key": "target",
+                    "id": "2",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ن",
+                    "color": "white"
+                },
+                {
+                    "x": 990,
+                    "y": 830,
+                    "key": "target1",
+                    "id": "1",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ب",
+                    "color": "white"
+                }
+            ],
+            "frames": []
+        },
+        {
+            "start": [
+                {
+                    "x": 730,
+                    "y": 330,
+                    "key": "start",
+                    "target": "2",
+                    "scale": 0.5,
+                    "text": "ت",
+                    "color": "#DD485C"
+                }
+            ],
+            "target": [
+                {
+                    "x": 490,
+                    "y": 830,
+                    "key": "target",
+                    "id": "2",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ت",
+                    "color": "white"
+                },
+                {
+                    "x": 990,
+                    "y": 830,
+                    "key": "target1",
+                    "id": "1",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ق",
+                    "color": "white"
+                }
+            ],
+            "frames": []
+        },
+        {
+            "start": [
+                {
+                    "x": 730,
+                    "y": 330,
+                    "key": "start",
+                    "target": "1",
+                    "scale": 0.5,
+                    "text": "ث",
+                    "color": "#DD485C"
+                }
+            ],
+            "target": [
+                {
+                    "x": 490,
+                    "y": 830,
+                    "key": "target",
+                    "id": "2",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ش",
+                    "color": "white"
+                },
+                {
+                    "x": 990,
+                    "y": 830,
+                    "key": "target1",
+                    "id": "1",
+                    "scale": 0.5,
+                    "snapX": 629,
+                    "snapY": 524,
+                    "text": "ث",
+                    "color": "white"
+                }
+            ],
+            "frames": []
+        }
+    ]
+}
+        ]
+    }
+]
+
+    

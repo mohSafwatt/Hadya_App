@@ -1,0 +1,27 @@
+[ 
+    {
+        "pageid":"6",
+        "backgroudimage":"/backgroundpg3.jpg",
+        "exercisenames":["Blank"],
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+        "autoreader":[ 
+          ],
+        "exersices":[ 
+            {    
+            "type":"Blank",
+            "display":"column",
+            "gametitles":[ 
+            ],
+             "size":{ 
+            },
+            "path":"/letters_page/"
+           }  
+        ]
+    }
+]
+
+    

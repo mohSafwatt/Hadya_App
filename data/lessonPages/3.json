@@ -1,0 +1,18 @@
+{
+"id": 5,
+"title": "",
+"special": true,
+"backgroundImage":"letters_page/pg3/Page3Bg.png",
+"areas": [  
+{ "id": "3-1", "letter": "ا", "image": "letters_page/pg3/1.png", "audio": "letters_page/pg3/1.mp3", "top": "7%", "left": "19%", "width": "65%" },
+{ "id": "3-2", "letter": "ا", "image": "letters_page/pg3/2.png", "audio": "letters_page/pg3/2.mp3", "top": "17%", "left": "25%", "width": "50%" },
+  { "id": "3-3", "letter": "ط","image": "letters_page/pg3/3.png", "audio": "letters_page/pg3/3.mp3", "top": "61%", "left": "29%", "width": "60%", "fontFamily":"aamiri", "textColor":"#DA1937","fontSize":"2.1vh" },
+  { "id": "3-4", "letter": "ط", "image": "letters_page/pg3/4.png","audio": "letters_page/pg3/4.mp3", "top": "66%",   "left": "38%", "width": "50%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "3-5", "letter": "ط", "image": "letters_page/pg3/5.png","audio": "letters_page/pg3/5.mp3", "top": "70%", "left": "38%", "width": "50%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "3-6", "letter": "ط", "image": "letters_page/pg3/6.png","audio": "letters_page/pg3/6.mp3", "top": "74%", "left": "28%", "width": "60%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "3-7", "letter": "ط", "image": "letters_page/pg3/7.png","audio": "letters_page/pg3/7.mp3", "top": "78%", "left": "50%", "width": "38%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "3-8", "letter": "ط", "image": "letters_page/pg3/8.png","audio": "letters_page/pg3/8.mp3", "top": "82%", "left": "20%", "width": "68%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "3-9", "letter": "ط", "image": "letters_page/pg3/9.png","audio": "letters_page/pg3/9.mp3", "top": "86%", "left": "29.4%", "width": "59%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "3-10", "letter": "ط", "image": "letters_page/pg3/10.png","audio": "letters_page/pg3/10.mp3", "top": "90%", "left": "32.2%", "width": "56%",  "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" }
+]
+}

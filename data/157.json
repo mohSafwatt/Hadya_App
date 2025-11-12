@@ -1,0 +1,131 @@
+[ 
+    {
+        "pageid":"14",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب الحروف (م-ن-هـ-و-ء-ي)",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "156_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "156_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "156_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames":["PhaserColoring"],
+        "autoreader": [
+          "pagetitleaudios/42/1.mp3",
+          "pagetitleaudios/32/2.mp3",
+          "pagetitleaudios/32/3.mp3",
+          "pagetitleaudios/32/4.mp3"
+        ],
+        "exersices":[
+           
+                      {
+    "type": "MatchPhaser",
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4",
+        "offsetY":"-14.5%",
+        "scaleY":"0.81"
+    },
+    "display": "",
+    "row": 4.4,
+    "titles": {
+        "id": "4",
+        "titlearabic": ".صِلْ كُلَّ حَرْفٍ بِمَجْمُوعَةِ أَشْكَالِهِ",
+        "titleenglish": "Connect each letter to its group of different shapes.",
+        "audio": "pagetitleaudios/143/1.mp3"
+    },
+    "path": "/matchPhaser/pg32/",
+    "questions": [
+        {
+            "start": [
+                {"x": 1140,"y":340,"key": "start1","target": "4","scale": 0.45,"text": "","color": "#DD485C" },
+                {"x": 860,"y": 340,"key": "start2","target": "1","scale": 0.45,"text": "","color": "#DD485C" },
+                {"x": 580,"y": 340,"key": "start3","target": "2","scale": 0.45,"text": "","color": "#DD485C" },
+                {"x": 300,"y": 340,"key": "start4","target": "3","scale": 0.45,"text": "","color": "#DD485C" }
+            ],
+            "target": [
+                {"x": 1230,"y":680,"key": "target1","id": "1","scale": 0.53,"snapX": 629,"snapY": 524,"text": "","color": "white" },
+                {"x": 900,"y":680,"key": "target2","id": "2", "scale": 0.53,"snapX": 629,"snapY": 524,"text": "","color": "white" },
+                {"x": 570,"y": 680,"key": "target3","id": "3","scale": 0.53,"snapX": 629,"snapY": 524,"text": "","color": "white" },
+                {"x": 250,"y": 680,"key": "target4","id": "4","scale": 0.53,"snapX": 629,"snapY": 524,"text": "","color": "white" }
+            ],
+            "frames": []
+        }
+    ]
+},
+           
+            {
+             "type": "PhaserColoring",
+             "display": "column",
+             "layout": {
+               "direction": "vertical",
+               "fit": "full"
+             },
+             "titles": {
+               "id": "2",
+               "titlearabic": ".أَكْمِلْ كِتَابَةَ أَشْكَالِ الحُرُوفِ التَّالِيَةِ.",
+               "titleenglish": "Complete the missing shapes of each letter",
+               "audio": "pagetitleaudios/95/2.mp3"
+             },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "4/6",
+        "offsetY":"-22%",
+        "scaleY":"1.12"
+    },
+             "path": "/phasecoloring/",
+             "questions": [
+               {
+                 "areas": [ 
+                    {"letter": "ب","x": 340,"y": 245,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 245,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 928,"y": 245,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 340,"y": 369,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 369,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 928,"y": 369,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 340,"y": 492,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"}, 
+                   {"letter": "ب","x": 928,"y": 492,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 340,"y": 612,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 612,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 928,"y": 612,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 340,"y": 740,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 740,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 928,"y": 740,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 340,"y": 863,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 863,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 928,"y": 863,"w": 243,"h": 100,"minStroke": 100,"letterAud": "ب"} 
+                 ],
+                 "frames": [
+                   {"key": "ShapesWrite7","x": 730,"y": 540,"w": 1020,"h": 900}
+                 ]
+               }
+             ]
+           }
+        ]
+    }
+]
+
+    

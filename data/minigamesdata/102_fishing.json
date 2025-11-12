@@ -1,0 +1,66 @@
+{
+  "thumbnailKey": "minigames/assets/thumbnails/fishingThumb.png",
+  "gameType": "Fishing", 
+    "questions": [
+     {
+        "multipleAnswers": true,
+        "targetLetter": ["ج", "جـ", "ـجـ", "ـج"],
+        "letters": ["د", "ج", "ـح", "ـجـ", "ذ", "ر"],
+        "lives": 3,
+        "questionText": "ميز اشكال حرف الجيم (ج)",
+        "speed": 180,
+        "targetCount": 1
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ح", "حـ", "ـحـ", "ـح"],
+        "letters": ["خ", "ـج", "حـ", "ـحـ", "ص", "س"],
+        "lives": 3,
+        "questionText": "ميز اشكال حرف الحاء (ح)",
+        "speed": 180,
+        "targetCount": 1
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["خ", "خـ", "ـخـ", "ـخ"],
+        "letters": ["ح", "خـ", "ـخـ", "خ", "ذ", "غ"],
+        "lives": 3,
+        "questionText": "ميز اشكال حرف الخاء (خ)",
+        "speed": 180,
+        "targetCount": 1
+      }
+    ],
+  "assets": {
+    "images": {
+      "Fish1": "minigames/assets/Fish1.png",
+      "Fish2": "minigames/assets/Fish2.png",
+      "Fish3": "minigames/assets/Fish3.png",
+      "Fish4": "minigames/assets/Fish4.png",
+      "Fish5": "minigames/assets/Fish5.png",
+      "Fish6": "minigames/assets/Fish6.png",
+      "FIshingBG": "minigames/assets/FIshingBG.png",
+      "Fisher": "minigames/assets/Fisher/Fisher.png",
+      "Bucket": "minigames/assets/Bucket.png",
+      "BucketFull": "minigames/assets/BucketFull.png",
+      "Hook": "minigames/assets/Hook.png",
+      "FishBanner": "minigames/assets/FishBanner.png"
+    },
+    "audio": {
+      "collect": "drop.mp3",
+      "hit": "drop.mp3"
+    },
+    "videos": {
+      "FishingVideo": {
+        "path": "minigames/assets/videos/FIshingBG.mp4",
+        "loadEvent": "canplaythrough"
+      }
+    },
+    "spritesheets": {
+      "FisherSpriteSheet": {
+        "path": "minigames/assets/Fisher/spritesheet1.png",
+        "frameWidth": 600,
+        "frameHeight": 432
+      }
+    }
+  }
+}

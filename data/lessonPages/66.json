@@ -1,0 +1,44 @@
+{
+    "id": 5,
+    "title": "",
+    "special": true,
+    "backgroundImage":"Audio_Book/BG-L01.png",
+
+    "areas": [
+      { "id": "66-1",  "letter": "ا", "image": "u2/tiles/tile1.png",  "audio": "letters_page/ا.mp3", "top": "3.0%", "left": "93%",  "width": "5%" },
+      { "id": "66-2",  "letter": "ب", "image": "u2/tiles/tile2.png",  "audio": "letters_page/ب.mp3", "top": "3.2%", "left": "86.5%", "width": "5%" },
+      { "id": "66-3",  "letter": "ت", "image": "u2/tiles/tile3.png",  "audio": "letters_page/ت.mp3", "top": "3.5%", "left": "80%",  "width": "5%" },
+      { "id": "66-4",  "letter": "ث", "image": "u2/tiles/tile4.png",  "audio": "letters_page/ث.mp3", "top": "3.9%", "left": "73.5%", "width": "5%" },
+      { "id": "66-5",  "letter": "ج", "image": "u2/tiles/tile5.png",  "audio": "letters_page/ج.mp3", "top": "4.3%", "left": "67%",  "width": "5%" },
+      { "id": "66-6",  "letter": "ح", "image": "u2/tiles/tile6.png",  "audio": "letters_page/ح.mp3", "top": "4.6%", "left": "60.5%", "width": "5%" },
+      { "id": "66-7",  "letter": "خ", "image": "u2/tiles/tile7.png",  "audio": "letters_page/خ.mp3", "top": "4.9%", "left": "54%",  "width": "5%" },
+      { "id": "66-8",  "letter": "د", "image": "u2/tiles/tile8.png",  "audio": "letters_page/د.mp3", "top": "5.0%", "left": "47.5%", "width": "5%" },
+      { "id": "66-9",  "letter": "ذ", "image": "u2/tiles/tile9.png",  "audio": "letters_page/ذ.mp3", "top": "4.9%", "left": "41%",  "width": "5%" },
+      { "id": "66-10", "letter": "ر", "image": "u2/tiles/tile10.png", "audio": "letters_page/ر.mp3", "top": "4.6%", "left": "34.5%", "width": "5%" },
+      { "id": "66-11", "letter": "ز", "image": "u2/tiles/tile11.png", "audio": "letters_page/ز.mp3", "top": "4.3%", "left": "28%",  "width": "5%" },
+      { "id": "66-12", "letter": "س", "image": "u2/tiles/tile12.png", "audio": "letters_page/س.mp3", "top": "3.9%", "left": "21.5%", "width": "5%" },
+      { "id": "66-13", "letter": "ش", "image": "u2/tiles/tile13.png", "audio": "letters_page/ش.mp3", "top": "3.5%", "left": "15%",  "width": "5%" },
+      { "id": "66-14", "letter": "ص", "image": "u2/tiles/tile14.png", "audio": "letters_page/ص.mp3", "top": "3.2%", "left": "8.5%",  "width": "5%" },
+      { "id": "66-15", "letter": "ض", "image": "u2/tiles/tile15.png", "audio": "letters_page/ض.mp3", "top": "3.0%", "left": "2%",   "width": "5%" },
+      
+      { "id": "66-16", "letter": "1", "image": "Audio_Book/66/T01.png", "audio": "pagetitleaudios/6/1.mp3", "top": "12%", "left": "21%", "width": "60%" },
+      { "id": "66-17", "letter": "1", "image": "Audio_Book/66/EX01.png", "audio": "letters_page/ن.mp3", "top": "16%", "left": "10%", "width": "80%" },
+    
+      { "id": "66-18", "letter": "ا", "image": "Audio_Book/66/T02.png", "audio": "pagetitleaudios/6/2.mp3", "top": "54%", "left": "14%", "width": "70%" }, 
+      { "id": "66-19", "letter": "ب", "image": "Audio_Book/66/EX02-1.png", "audio": "audio/roman.mp3", "top": "59%", "left": "10%", "width": "23%" },
+      { "id": "66-20", "letter": "ت", "image": "Audio_Book/66/EX02-2.png", "audio": "audio/leasan.mp3", "top": "59%", "left": "35%", "width": "23%" },
+      { "id": "66-21", "letter": "ث", "image": "Audio_Book/66/EX02-3.png", "audio": "audio/tho3ban.mp3", "top": "59%", "left": "60%", "width": "24%" },
+           
+      { "id": "66-22", "letter": "ج", "image": "Audio_Book/66/T03.png", "audio": "pagetitleaudios/66/1.mp3",      "top": "71%",  "left": "19%", "width": "60%" },
+      { "id": "66-23", "letter": "ح", "image": "Audio_Book/66/EX03-1.png", "audio": "letters_page/ف.mp3",  "top": "82%",  "left": "4%", "width":  "9%" }, 
+      { "id": "66-24", "letter": "خ", "image": "Audio_Book/66/EX03-2.png", "audio": "letters_page/ب.mp3",  "top": "78%",  "left": "14%", "width":  "9%" }, 
+      { "id": "66-25", "letter": "د", "image": "Audio_Book/66/EX03-3.png", "audio": "letters_page/ن.mp3",  "top": "82%",   "left": "24%", "width":   "9%" },
+      { "id": "66-26", "letter": "ذ", "image": "Audio_Book/66/EX03-4.png", "audio": "letters_page/ز.mp3",  "top": "78%",   "left": "33%", "width":   "9%" },
+      { "id": "66-27", "letter": "ر", "image": "Audio_Book/66/EX03-5.png", "audio": "letters_page/ذ.mp3",  "top": "82%", "left": "42%", "width": "9%" },
+      { "id": "66-28", "letter": "ر", "image": "Audio_Book/66/EX03-6.png", "audio": "letters_page/ن.mp3",  "top": "78%", "left": "52%", "width": "9%" },
+      { "id": "66-29", "letter": "ر", "image": "Audio_Book/66/EX03-7.png", "audio": "letters_page/ت.mp3",  "top": "82%", "left": "61%", "width":  "9%" },
+      { "id": "66-30", "letter": "ر", "image": "Audio_Book/66/EX03-8.png", "audio": "letters_page/ظ.mp3",  "top": "78%",   "left": "70%", "width":   "9%" },
+      { "id": "66-31", "letter": "ر", "image": "Audio_Book/66/EX03-9.png", "audio": "letters_page/ن.mp3",  "top": "82%",   "left": "80%", "width":   "9%" },
+      { "id": "66-32", "letter": "ر", "image": "Audio_Book/66/EX03-10.png", "audio":"letters_page/ب.mp3",  "top": "78%",  "left": "90%", "width":  "9%" }  
+    ]
+}

@@ -1,0 +1,128 @@
+{
+  "thumbnailKey": "minigames/assets/thumbnails/planeThumb.png",
+  "gameType": "AirplaneGame",
+  "questions": [
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["م", "مـ", "ـمـ", "ـم"],
+        "letters": ["ن", "ـمـ", "م", "ل", "مـ", "ب", "ف", "ق"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الميم",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 4
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ن", "نـ", "ـنـ", "ـن"],
+        "letters": ["م", "ـن", "ن", "ـنـ", "ت", "ي", "ب", "ث"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف النون",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 4
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ه", "هـ", "ـهـ", "ـه"],
+        "letters": ["ك", "ـكـ", "ه", "ة", "ل", "م", "ت", "ب"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الهاء",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 5
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["و", "ـو"],
+        "letters": ["و", "ـو", "ر", "ز", "ق", "ف", "م", "ن"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الواو",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 2
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ء", "ـإ", "إ", "ـأ"],
+        "letters": ["ن", "ي", "ـإ", "ت", "ب", "ث", "إ", "ـأ", "ء"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الهمزة",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 4
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ي", "يـ", "ـيـ", "ـي"],
+        "letters": ["ن", "ي", "ـيـ", "ت", "ب", "ث", "م", "ل"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الياء",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 4
+      }
+],
+  "assets": {
+    "images": {
+      "Explosion": "minigames/assets/Explosion.png",
+      "Blimp": "minigames/assets/Blimp.png",
+      "bgFar": "minigames/assets/farParalax.png",
+      "bgMid": "minigames/assets/midParalax.png",
+      "bgClose": "minigames/assets/CloseParalax.png",
+      "Basket": "minigames/assets/Basket.png"
+    }, 
+    "audio": {
+      "collect": "drop.mp3",
+      "hit": "drop.mp3"
+    },
+    "spritesheets": {
+      "planeSprite": {
+        "path": "minigames/assets/planespritesheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      },
+      "planeDestroyedSpriteSheet": {
+        "path": "minigames/assets/planeDestroyedSpriteSheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      }
+    }
+  }
+}

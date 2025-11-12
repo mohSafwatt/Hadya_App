@@ -1,0 +1,335 @@
+[
+    {
+        "pageid": "12",
+        "backgroudimage": "/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب حرف الظاء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "46_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "46_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "46_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames": [
+          "letterspathPhaser",
+          "PhaserLetterBoard",
+          "BaloonPhaser"
+        ],
+        "autoreader": [ 
+          "pagetitleaudios/6/1.mp3",
+          "pagetitleaudios/6/2.mp3",
+          "/audio/hofaz.mp3",
+          "/audio/shoaz.mp3",
+          "/audio/moghtaz.mp3",
+          "pagetitleaudios/46/1.mp3"
+        ],
+        "exersices": [
+       {
+    "type": "letterspathPhaser",
+    "display": "column",
+    "canvasTrue": true,
+    "canvas": {
+        "targetImg": "/alphas/18.png"
+    },
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "1",
+        "titlearabic": "لَوِّنْ ثُمَّ ٱقْرَأْ وَٱكْتُبْ.",
+        "titleenglish": "Color, then read and write.",
+        "audio": "pagetitleaudios/6/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4"
+    },
+    "path": "/phasercoloring/",
+    "images": [
+        {
+            "key": "thuu",
+            "x": 380,
+            "y": 580,
+            "w": 1280,
+            "h": 660
+        }
+    ],
+    "imagesMeta": [],
+    "images0Extras": [],
+    "images1Extras": [],
+    "images2Extras": [],
+    "images3Extras": [],
+    "images4Extras": [],
+    "images5Extras": [],
+    "images6Extras": [],
+    "images7Extras": [],
+    "images8Extras": [],
+    "images9Extras": [],
+    "images10Extras": [],
+    "images11Extras": [],
+    "images12Extras": [],
+    "images13Extras": [],
+    "images14Extras": [],
+    "images15Extras": [],
+    "images16Extras": [],
+    "images17Extras": [],
+    "images18Extras": [],
+    "areas": [
+    {
+        "x": 464.20000000000005,
+        "y": 617.6,
+        "w": 512,
+        "h": 251.60000000000002,
+        "tolerance": 45,
+        "points": [
+            {
+                "x": 612.8,
+                "y": 795
+            },
+            {
+                "x": 785.6,
+                "y": 642.6
+            },
+            {
+                "x": 951.2,
+                "y": 718.2
+            },
+            {
+                "x": 891.2,
+                "y": 804.6
+            },
+            {
+                "x": 489.20000000000005,
+                "y": 844.2
+            }
+        ]
+    },
+    {
+        "x": 603.4,
+        "y": 245.60000000000002,
+        "w": 56,
+        "h": 497.6,
+        "tolerance": 45,
+        "points": [
+            {
+                "x": 634.4,
+                "y": 270.6
+            },
+            {
+                "x": 628.4,
+                "y": 718.2
+            }
+        ]
+    },
+    {
+        "x": 725.4,
+        "y": 374.8,
+        "w": 143.20000000000005,
+        "h": 140.8,
+        "tolerance": 45,
+        "dot": true,
+        "points": [
+            {
+                "x": 760.4,
+                "y": 409.8
+            },
+            {
+                "x": 833.6,
+                "y": 480.6
+            }
+        ]
+    }
+],
+    "audio": {
+        "key": "audio1",
+        "file": "ظ"
+    }
+},
+          {    
+              "type":"PhaserLetterBoard",
+              "display":"column",
+              "layout": {
+                "direction": "vertical", 
+                "fit": "full"            
+              },
+              "board":"/frame_board.png",
+              "titles":{ 
+                "id":"2",
+                "titlearabic": "ٱقْرَأْ وَٱكْتُبِ ٱلْحَرْفَ ٱلنَّاقِصَ.",
+                "titleenglish": "Read and write the missing letters.",
+                "audio":"pagetitleaudios/6/2.mp3",
+                "fontsize":"1.1vh"
+              },
+                 "size":{
+                    "gridcol":"span 2",
+                    "gridrow":"4/5",
+                    "offsetY":"0%"
+                },
+              "path":"/phaserwords/",
+              "questions":[
+    {
+        "areas": [
+            {
+                "letter": "ظ",
+                "x": 940,
+                "y": 700,
+                "w": 300,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ظ",
+                "requiredStrokes": 3,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "hofaz_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "hofaz",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "hofaz",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ظ",
+                "x": 948,
+                "y": 700,
+                "w": 160,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ظ",
+                "requiredStrokes": 3,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "shoaz_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "shoaz",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "shoaz",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ظ",
+                "x": 930,
+                "y": 695,
+                "w": 200,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ظ",
+                "requiredStrokes": 3,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "moghtaz_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "moghtaz",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "moghtaz",
+                "path": "/"
+            }
+        ]
+    }
+]
+          },
+          {
+    "type": "BaloonPhaser",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "3",
+        "titlearabic": "مَيِّزْ حَرْفَ الظَّاء.",
+        "titleenglish": "Identify the letter (ظ)",
+        "audio": "pagetitleaudios/46/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "5",
+                    "offsetY":"-17%"
+    },
+    "Baloons": [
+        {"x": 110,  "y": 730, "key": "B1",  "audio": "", "iscorrect": "true",  "letter": "ظ", "textOffset": "+18" },
+        {"x": 243,  "y": 480, "key": "B2",  "audio": "", "iscorrect": "false", "letter": "ت" },
+        {"x": 376,  "y": 730, "key": "B3",  "audio": "", "iscorrect": "false", "letter": "ح" },
+        {"x": 510,  "y": 480, "key": "B4",  "audio": "", "iscorrect": "false", "letter": "ط" },
+        {"x": 643,  "y": 730, "key": "B5",  "audio": "", "iscorrect": "true",  "letter": "ظ" },
+        {"x": 776,  "y": 480, "key": "B6",  "audio": "", "iscorrect": "false", "letter": "ر" },
+        {"x": 910,  "y": 730, "key": "B7",  "audio": "", "iscorrect": "false", "letter": "د" },
+        {"x": 1043, "y": 480, "key": "B8",  "audio": "", "iscorrect": "true",  "letter": "ظ" },
+        {"x": 1176, "y": 730, "key": "B9",  "audio": "", "iscorrect": "false", "letter": "ث" },
+        {"x": 1310, "y": 480, "key": "B10", "audio": "", "iscorrect": "false", "letter": "ن", "textOffset": "-18" }
+    ]
+}
+
+        ]
+      }
+]

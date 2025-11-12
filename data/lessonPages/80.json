@@ -1,0 +1,18 @@
+{
+"id": 5,
+"title": "",
+"special": true,
+"backgroundImage":"u2/pg80/Page80Bg.png",
+"areas": [  
+{ "id": "80-1", "letter": "ا", "image": "u2/pg80/1.png", "audio": "u2/pg80/1.mp3", "top": "7%", "left": "19%", "width": "65%" },
+{ "id": "80-2", "letter": "ا", "image": "u2/pg80/2.png", "audio": "u2/pg80/2.mp3", "top": "17%", "left": "25%", "width": "50%" },
+
+  { "id": "80-3", "letter": "ط","image": "u2/pg80/3.png", "audio": "u2/pg80/3.mp3", "top": "61%", "left": "29%", "width": "60%", "fontFamily":"aamiri", "textColor":"#DA1937","fontSize":"2.1vh" },
+  { "id": "80-4", "letter": "ط", "image": "u2/pg80/4.png","audio": "u2/pg80/4.mp3", "top": "66%",   "left": "18%", "width": "70%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "80-5", "letter": "ط", "image": "u2/pg80/5.png","audio": "u2/pg80/5.mp3", "top": "69.56%", "left": "41%", "width": "47%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "80-6", "letter": "ط", "image": "u2/pg80/6.png","audio": "u2/pg80/6.mp3", "top": "73%", "left": "18%", "width": "70%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "80-7", "letter": "ط", "image": "u2/pg80/7.png","audio": "u2/pg80/7.mp3", "top": "77%", "left": "39%", "width": "49%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "80-8", "letter": "ط", "image": "u2/pg80/8.png","audio": "u2/pg80/8.mp3", "top": "80.5%", "left": "20%", "width": "68%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" },
+  { "id": "80-9", "letter": "ط", "image": "u2/pg80/9.png","audio": "u2/pg80/9.mp3", "top": "84%", "left": "29.4%", "width": "59%", "fontFamily":"BalooBhaijaan2", "textColor":"#2D5FAA","fontSize":"1.3vh" } 
+]
+}

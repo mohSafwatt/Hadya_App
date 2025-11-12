@@ -1,0 +1,146 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الراء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "28_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "28_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "28_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الرَّاءْ",
+          "titleenglish": "Listen and underline the letter (ر).",
+          "audio": "pagetitleaudios/29/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/29/",
+        "letter":"ر",
+        "questions": [
+          {
+            "quranaudio": "29-1",
+            "ayaverse": "سورة الرعد آية 4",
+            "ayaverseEnglish": "Surah Ar-Ra'd Verse 4",
+            "areas": [
+              {
+                "letterN":"ر", "letter": "رۡ", "x": 1220, "y": 496, "w": 60, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 90, "color": "#DB2A50", "audio": "ra" },
+              {
+                "letterN":"ر", "letter": "رَٰ", "x": 775, "y": 496, "w": 60, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 90, "color": "#DB2A50", "audio": "ra" },
+              {
+                "letterN":"ر", "letter": "رۡ", "x": 60, "y": 496, "w": 60, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 90, "color": "#DB2A50", "audio": "ra" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـر", "x": 838, "y": 689, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "وَفِي ٱلۡأَ ضِ قِطَعٞ مُّتَجَٰوِ  تٞ وَجَنَّٰتٞ مِّنۡ أَعۡنَٰبٖ وَزَ عٞ﴿", "x": 720, "y": 450, "w": 1480, "h": 180, "time": 14000, "fontsize": 90 },
+              { "key": "1", "text": "وَنَخِيلٞ صِنۡوَانٞ وَغَيۡرُ صِنۡوَانٖ يُسۡقَىٰ بِمَآءٖ وَٰحِدٖ ٤", "x": 720, "y": 650, "w": 1300, "h": 180, "time": 17000, "fontsize": 90 }
+            ]
+          },
+          {
+            "quranaudio": "29-2",
+            "ayaverse": "سورة الرحمن آية 68-69",
+            "ayaverseEnglish": "Surah Ar-Rahman Verse 68-69",
+            "areas": [
+              {
+                "letterN":"ر", "letter": "رُ", "x": 480, "y": 476, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 120, "color": "#DB2A50", "audio": "ra" },
+              {
+                "letterN":"ر", "letter": "رَ", "x": 890, "y": 690, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 120, "color": "#DB2A50", "audio": "ra" }
+            ],
+            "frames": [
+              { "key": "1", "text": "فِيهِمَا فَٰكِهَةٌ وَنَخۡلٌ وَ مَّانٌ ٦٨﴿", "x": 740, "y": 430, "w": 1060, "h": 180, "time": 10000, "fontsize": 120 },
+              { "key": "1", "text": "﴾فَبِأَيِّ ءَالَآءِ   بِّكُمَا تُكَذِّبَانِ ٦٩", "x": 740, "y": 650, "w": 1200, "h": 180, "time": 25000, "fontsize": 120 }
+            ]
+          },
+          {
+            "quranaudio": "29-3",
+            "ayaverse": "سورة العاديات آية 8-9",
+            "ayaverseEnglish": "Surah Al-Adiyat Verse 8-9",
+            "areas": [
+              {
+                "letterN":"ر", "letter": "رِ", "x": 290, "y": 697, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "ra" }
+            ],
+             "otherAreas": [
+              {  "letter": "ـر", "x": 662, "y": 486, "w": 60, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "ـر", "x": 696, "y": 695, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ ٨﴿", "x": 740, "y": 420, "w": 1000, "h": 220, "time": 8000, "fontsize": 110 },
+              { "key": "1", "text": "﴾أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُو  ٩۞", "x": 740, "y": 650, "w": 1201, "h": 180, "time": 10000, "fontsize": 110 }
+            ]
+          },
+          {
+            "quranaudio": "29-4",
+            "ayaverse": "سورة القارعة آية 8-11",
+            "ayaverseEnglish": "Surah Al-Qariah Verse 8-11",
+            "areas": [
+              {
+                "letterN":"ر", "letter": "رَ", "x": 1105, "y": 660, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "ra" },
+              {
+                "letterN":"ر", "letter": "رٌ", "x": 540, "y": 660, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "ra" }
+            ],
+            "frames": [
+              { "key": "1", "text": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ ٨ فَأُمُّهُۥ هَاوِيَةٌ ٩﴿", "x": 740, "y": 450, "w": 1480, "h": 180, "time": 12000, "fontsize": 110 },
+              { "key": "1", "text": "﴾وَمَآ أَدۡ ىٰكَ مَا هِيَهۡ ١٠ نَا  حَامِيَةُۢ ١١", "x": 740, "y": 620, "w": 1200, "h": 180, "time": 13000, "fontsize": 110 }
+            ]
+          },
+          {
+            "quranaudio": "29-5",
+            "ayaverse": "سورة قريش آية 1-3",
+            "ayaverseEnglish": "Surah Quraysh Verse 1-3",
+            "areas": [
+              {
+                "letterN":"ر", "letter": "رِ", "x": 700, "y": 490, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "ra" },
+              {
+                "letterN":"ر", "letter": "رَ", "x": 850, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "ra" }
+            ],
+             "otherAreas": [
+              {  "letter": "ـر", "x": 1128, "y": 496, "w": 40, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "لِإِيلَٰفِ قُرَيۡشٍ ١ إِۦلَٰفِهِمۡ  حۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ ٢﴿", "x": 740, "y": 450, "w": 1400, "h": 180, "time": 16000, "fontsize": 85 },
+              { "key": "1", "text": "﴾فَلۡيَعۡبُدُواْ  بَّ هَٰذَا ٱلۡبَيۡتِ ٣", "x": 740, "y": 600, "w": 800, "h": 180, "time": 10000, "fontsize": 85 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

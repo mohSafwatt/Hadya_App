@@ -1,0 +1,236 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الخاء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "20_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "20_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "20_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الخَاءْ",
+          "titleenglish": "Listen and underline the letter (خ).",
+          "audio": "pagetitleaudios/21/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/21/",
+        "letter":"خ",
+        "questions": [
+          {
+            "quranaudio": "21-1",
+            "ayaverse": "سورة النساء آية 23",
+            "ayaverseEnglish": "Surah An-Nisa Verse 23",
+            "areas": [
+              {
+                "letterN":"خ",
+                "letter": "خِ",
+                "x": 695,
+                "y": 670,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 80,
+                "color": "#DB2A50",
+                "audio": "kha"
+              }
+            ],
+             "otherAreas": [
+              {  "letter": "خـ", "x": 485, "y": 500, "w": 45, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "خـ", "x": 1170, "y": 650, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "خـ", "x": 410, "y": 650, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "حُرِّمَتۡ عَلَيۡكُمۡ أُمَّهَٰتُكُمۡ وَبَنَاتُكُمۡ وَأَخَوَٰتُكُمۡ وَعَمَّٰتُكُمۡ﴿",
+                "x": 755,
+                "y": 480,
+                "w": 1440,
+                "h": 150,
+                "time": 15000,
+                "fontsize": 80
+              },
+              {
+                "key": "1",
+                "text": "﴾وَخَٰلَٰتُكُمۡ وَبَنَاتُ ٱلۡأَ   وَبَنَاتُ ٱلۡأُخۡتِ ٢٣",
+                "x": 720,
+                "y": 630,
+                "w": 1060,
+                "h": 150,
+                "time": 10000,
+                "fontsize": 80
+              }
+            ]
+          },
+          {
+            "quranaudio": "21-2",
+            "ayaverse": "سورة يوسف آية 59",
+            "ayaverseEnglish": "Surah Yusuf Verse 59",
+            "areas": [
+              {
+                "letterN":"خ",
+                "letter": "خٖ",
+                "x": 587,
+                "y": 630,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 85,
+                "color": "#DB2A50",
+                "audio": "kha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾ وَلَمَّا جَهَّزَهُم بِجَهَازِهِمۡ قَالَ ٱئۡتُونِي بِأَ   لَّكُم مِّنۡ أَبِيكُمۡۚ ٥٩ ﴿",
+                "x": 740,
+                "y": 580,
+                "w": 1440,
+                "h": 180,
+                "time": 11000,
+                "fontsize": 80
+              }
+            ]
+          },
+          {
+            "quranaudio": "21-3",
+            "ayaverse": "سورة يوسف آية 77",
+            "ayaverseEnglish": "Surah Yusuf Verse 77",
+            "areas": [
+              {
+                "letterN":"خ",
+                "letter": "خٞ",
+                "x": 590,
+                "y": 630,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 95,
+                "color": "#DB2A50",
+                "audio": "kha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾ قَالُوٓاْ إِن يَسۡرِقۡ فَقَدۡ سَرَقَ أَ   لَّهُۥ مِن قَبۡلُۚ ٧٧ ﴿",
+                "x": 740,
+                "y": 580,
+                "w": 1330,
+                "h": 220,
+                "time": 10000,
+                "fontsize": 95
+              }
+            ]
+          },
+          {
+            "quranaudio": "21-4",
+            "ayaverse": "سورة المؤمنون آية 100",
+            "ayaverseEnglish": "Surah Al-Muminun Verse 100",
+            "areas": [
+              {
+                "letterN":"خ",
+                "letter": "خٌ",
+                "x": 775,
+                "y": 630,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 100,
+                "color": "#DB2A50",
+                "audio": "kha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾ وَمِن وَرَآئِهِم بَرۡزَ   إِلَىٰ يَوۡمِ يُبۡعَثُونَ ١٠٠ ﴿",
+                "x": 740,
+                "y": 580,
+                "w": 1200,
+                "h": 220,
+                "time": 13000,
+                "fontsize": 100
+              }
+            ]
+          },
+          {
+            "quranaudio": "21-5",
+            "ayaverse": "سورة الرحمن آية 20",
+            "ayaverseEnglish": "Surah Ar-Rahman Verse 20",
+            "areas": [
+              {
+                "letterN":"خ",
+                "letter": "خٌ",
+                "x": 790,
+                "y": 630,
+                "w": 70,
+                "h": 170,
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 110,
+                "color": "#DB2A50",
+                "audio": "kha"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾ بَيۡنَهُمَا بَرۡزَ   لَّا يَبۡغِيَانِ ٢٠ ﴿",
+                "x": 740,
+                "y": 580,
+                "w": 950,
+                "h": 240,
+                "time": 9000,
+                "fontsize": 110
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

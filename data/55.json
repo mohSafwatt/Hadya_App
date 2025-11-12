@@ -1,0 +1,132 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الفاء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "54_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "54_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "54_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الفَاءْ",
+          "titleenglish": "Listen and underline the letter (ف).",
+          "audio": "pagetitleaudios/55/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/55/",
+        "letter":"ف",
+        "questions": [
+          {
+            "quranaudio": "55-1",
+            "ayaverse": "سورة الشمس آية 15",
+            "ayaverseEnglish": "Surah Ash-Shams Verse 15",
+            "areas": [
+              {
+                "letterN":"ف", "letter": "فُ", "x": 780, "y": 630, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 120, "color": "#DB2A50", "audio": "fa" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ وَلَا يَخَا    عُقۡبَٰهَا ١٥ ﴿", "x": 720, "y": 580, "w": 900, "h": 250, "time": 6000, "fontsize": 120 }
+            ]
+          },
+          {
+            "quranaudio": "55-2",
+            "ayaverse": "سورة الزمر آية 20",
+            "ayaverseEnglish": "Surah Az-Zumar Verse 20",
+            "areas": [
+              {
+                "letterN":"ف", "letter": "فٞ", "x": 610, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "fa" },
+              {
+                "letterN":"ف", "letter": "فٞ", "x": 210, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "fa" }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 447, "y": 489, "w": 34, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}, 
+              {  "letter": "بـ", "x": 460, "y": 657, "w": 71, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              { "key": "1", "text": "لَٰكِنِ ٱلَّذِينَ ٱتَّقَوۡاْ رَبَّهُمۡ لَهُمۡ غُرَ    مِّن فَوۡقِهَا غُرَ    مَّبۡنِيَّةٞ﴿", "x": 740, "y": 480, "w": 1480, "h": 130, "time": 16000, "fontsize": 85 },
+              { "key": "1", "text": "﴾تَجۡرِي مِن تَحۡتِهَا ٱلۡأَنۡهَٰرُۖ وَعۡدَ ٱللَّهِ لَا يُخۡلِفُ ٱللَّهُ ٱلۡمِيعَادَ ٢٠", "x": 740, "y": 640, "w": 1480, "h": 140, "time": 24000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "55-3",
+            "ayaverse": "سورة الفرقان آية 65",
+            "ayaverseEnglish": "Surah Al-Furqan Verse 65",
+            "areas": [
+              {
+                "letterN":"ف", "letter": "فۡ", "x": 1170, "y": 630, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "fa" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ رَبَّنَا ٱصۡرِ    عَنَّا عَذَابَ جَهَنَّمَۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا ٦٥﴿", "x": 740, "y": 580, "w": 1440, "h": 180, "time": 14000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "55-4",
+            "ayaverse": "سورة التكاثر آية 1-4",
+            "ayaverseEnglish": "Surah At-Takathur Verse 1-4",
+            "areas": [
+              {
+                "letterN":"ف", "letter": "فَ", "x": 1130, "y": 680, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "fa" },
+              {
+                "letterN":"ف", "letter": "فَ", "x": 490, "y": 680, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "fa" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ ١ حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ ٢﴿", "x": 740, "y": 480, "w": 1114, "h": 150, "time": 11000, "fontsize": 85 },
+              { "key": "1", "text": "﴾كَلَّا سَوۡ    تَعۡلَمُونَ ٣ ثُمَّ كَلَّا سَوۡ    تَعۡلَمُونَ ٤", "x": 740, "y": 630, "w": 1190, "h": 150, "time": 15000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "55-5",
+            "ayaverse": "سورة قريش آية 3-4",
+            "ayaverseEnglish": "Surah Quraysh Verse 3-4",
+            "areas": [
+              {
+                "letterN":"ف", "letter": "فٖ", "x": 290, "y": 660, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "fa" }
+            ],
+            "frames": [
+              { "key": "1", "text": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ ٣﴿", "x": 740, "y": 480, "w": 800, "h": 150, "time": 8000, "fontsize": 85 },
+              { "key": "1", "text": "﴾ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡ    ٤", "x": 740, "y": 610, "w": 1190, "h": 150, "time": 15000, "fontsize": 85 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

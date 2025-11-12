@@ -1,0 +1,176 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف النون",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "66_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "66_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "66_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ النُّونْ",
+          "titleenglish": "Listen and underline the letter (ن).",
+          "audio": "pagetitleaudios/67/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/67/",
+        "letter":"ن",
+        "questions": [
+          {
+            "quranaudio": "67-1",
+            "ayaverse": "سورة النحل آية 103",
+            "ayaverseEnglish": "Surah An-Nahl Verse 103",
+            "areas": [
+              {
+                "letterN":"ن", "letter": "نَ", "x": 720, "y": 520, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نُ", "x": 157, "y": 520, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نَ", "x": 1050, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نٌ", "x": 460, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "noon" }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 645, "y": 486, "w": 30, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "ـبـ", "x": 198, "y": 655, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 965, "y": 486, "w": 25, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 1123, "y": 486, "w": 40, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "  وَلَقَدۡ نَعۡلَمُ أَنَّهُمۡ يَقُولُو    إِنَّمَا يُعَلِّمُهُۥ بَشَرٞۗ لِّسَا﴿", "x": 720, "y": 470, "w": 1200, "h": 140, "time": 15000, "fontsize": 80 },
+              { "key": "1", "text": "﴾ٱلَّذِي يُلۡحِدُو   إِلَيۡهِ أَعۡجَمِيّٞ وَهَٰذَا لِسَا   عَرَبِيّٞ مُّبِينٌ ١٠٣", "x": 720, "y": 620, "w": 1300, "h": 140, "time": 17000, "fontsize": 80 }
+            ]
+          },
+          {
+            "quranaudio": "67-2",
+            "ayaverse": "سورة الشعراء آية 32",
+            "ayaverseEnglish": "Surah Ash-Shu'ara Verse 32",
+            "areas": [
+              {
+                "letterN":"ن", "letter": "نٞ", "x": 500, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "noon" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـبـ", "x": 340, "y": 626, "w": 60, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعۡبَا   مُّبِينٞ ٣٢ ﴿", "x": 740, "y": 590, "w": 1200, "h": 180, "time": 11000, "fontsize": 100 }
+            ]
+          },
+          {
+            "quranaudio": "67-3",
+            "ayaverse": "سورة الكافرون آية 2-3",
+            "ayaverseEnglish": "Surah Al-Kafirun Verse 2-3",
+            "areas": [
+              {
+                "letterN":"ن", "letter": "نَ", "x": 920, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نَ", "x": 410, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "noon" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـبـ", "x": 676, "y": 620, "w": 25, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ لَآ أَعۡبُدُ مَا تَعۡبُدُو   ٢ وَلَآ أَنتُمۡ عَٰبِدُو   مَآ أَعۡبُدُ ٣ ﴿", "x": 740, "y": 590, "w": 1400, "h": 180, "time": 17000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "67-4",
+            "ayaverse": "سورة الماعون آية 5-7",
+            "ayaverseEnglish": "Surah Al-Ma'un Verse 5-7",
+            "areas": [
+              {
+                "letterN":"ن", "letter": "نَ", "x": 660, "y": 540, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نَ", "x": 150, "y": 540, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نَ", "x": 810, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نَ", "x": 590, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "noon" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـبـ", "x": 910, "y": 655, "w": 30, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}, 
+              {  "letter": "بـ", "x": 1089, "y": 531, "w": 60, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 439, "y": 531, "w": 44, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "ب", "x": 1296, "y": 531, "w": 44, "h": 180,  "message":"!صحيح", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              { "key": "1", "text": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُو   ٥ ٱلَّذِينَ هُمۡ يُرَآءُو   ٦﴿", "x": 740, "y": 490, "w": 1440, "h": 165, "time": 17000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَيَمۡنَعُو   ٱلۡمَاعُو   ٧", "x": 740, "y": 620, "w": 600, "h": 165, "time": 6000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "67-5",
+            "ayaverse": "سورة الرحمن آية 68-69",
+            "ayaverseEnglish": "Surah Ar-Rahman Verse 68-69",
+            "areas": [
+              {
+                "letterN":"ن", "letter": "نٞ", "x": 380, "y": 500, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "noon" },
+              {
+                "letterN":"ن", "letter": "نِ", "x": 360, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "noon" }
+            ],
+             "otherAreas": [  
+              {  "letter": "بـ", "x": 696, "y": 441, "w": 44, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "فِيهِمَا فَٰكِهَةٞ وَنَخۡلٞ وَرُمَّا   ٦٨﴿", "x": 740, "y": 450, "w": 1000, "h": 180, "time": 12000, "fontsize": 110 },
+              { "key": "1", "text": "﴾فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَا   ٦٩", "x": 740, "y": 630, "w": 1100, "h": 180, "time": 13000, "fontsize": 110 }
+            ]
+          },
+          {
+            "quranaudio": "67-6",
+            "ayaverse": "سورة العاديات آية 4",
+            "ayaverseEnglish": "Surah Al-Adiyat Verse 4",
+            "areas": [
+              {
+                "letterN":"ن", "letter": "نَ", "x": 880, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 120, "color": "#DB2A50", "audio": "noon" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـبـ", "x": 676, "y": 620, "w": 40, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ فَأَثَرۡ   بِهِۦ نَقۡعٗا ٤ ﴿", "x": 740, "y": 590, "w": 800, "h": 180, "time": 8000, "fontsize": 120 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

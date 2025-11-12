@@ -1,0 +1,208 @@
+[ 
+    {
+        "pageid":"14",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب الحروف (س-ش-ص-ض)",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "122_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "122_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "122_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames":["PhaserColoring"],
+        "autoreader": [
+          "pagetitleaudios/42/1.mp3",
+          "pagetitleaudios/32/2.mp3",
+          "pagetitleaudios/32/3.mp3",
+          "pagetitleaudios/32/4.mp3"
+        ],
+        "exersices":[
+           
+            {
+             "type": "PhaserColoring",
+             "display": "column",
+             "layout": {
+               "direction": "vertical",
+               "fit": "full"
+             },
+             "titles": {
+               "id": "2",
+               "titlearabic": ".اقرأْ، واكتبْ أشكالَ الحرفِ بخطٍّ جميلٍ",
+               "titleenglish": "Trace the letter, then copy it neatly",
+               "audio": "pagetitleaudios/94/1.mp3"
+             },
+             "size": {
+               "gridcol": "span 2",
+               "gridrow": "2/4",
+               "offsetY":"4%",
+               "scaleY":"1.19"
+             },
+             "path": "/phasecoloring/",
+             "questions": [
+               {
+                 "areas": [ 
+                    {"letter": "ب","x": 330,"y": 310,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 580,"y": 310,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 840,"y": 310,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 1100,"y": 310,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"}, 
+
+                   {"letter": "ب","x": 330,"y": 490,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 580,"y": 490,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 840,"y": 490,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 1100,"y": 490,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+
+                   {"letter": "ب","x": 330,"y": 680,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 580,"y": 680,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 840,"y": 680,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 1100,"y": 680,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   
+                   {"letter": "ب","x": 330,"y": 870,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 580,"y": 870,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 840,"y": 870,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 1100,"y": 870,"w": 200,"h": 100,"minStroke": 100,"letterAud": "ب" } 
+                 ],
+                 "frames": [
+                   {"key": "ektob4","x": 730,"y": 550,"w": 1000,"h": 900}
+                 ]
+               }
+             ]
+           },
+           {
+        "type": "LettersUnderline",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".ضَعْ خَطًّا تَحْتَ أَشْكَالِ الحَرْفِ فِي الكَلِمَاتِ التَّالِيَةِ",
+          "titleenglish": "Underline the shapas of the letter in the following words.",
+          "audio": "pagetitleaudios/94/2.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "4/6",
+          "offsetY":"4%",
+          "scaleY":"0.8"
+        },
+        "path": "/quran_audio/25/",
+        "letter": "د",
+        "questions": [
+          {    
+            "otherAreas": [ 
+              { "letter": "ـد", "x": 196, "y": 612, "w": 93, "h": 175, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },
+              { "letter": "ـد", "x": 510, "y": 595, "w": 53, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 900, "y": 595, "w": 50, "h": 150, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },
+              { "letter": "ـد", "x": 1170, "y": 595, "w": 50, "h": 150, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },
+              { "letter": "ـد", "x": 1257, "y": 608, "w": 84, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }
+            ],
+            "frames": [
+              { "key": "1", "text": "نُحَاسٞ", "x": 1300, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "سَبۡعُونٞ", "x": 1090, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "مِسۡكِينٞ", "x": 850, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "رِيشٞ", "x": 630, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "سَمَكَةٞ", "x": 430, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 110 },
+              { "key": "1", "text": "إِنسٞ", "x": 220, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 }
+            ],
+            "images":[
+                { "key": "PhaserUnderlineFrame","depth":1, "x": 740, "y": 590, "w": 1400, "h": 300, "time": 9000, "fontsize": 110 }, 
+                { "key": "سFrame","depth":1, "x": 740, "y": 340, "w": 300, "h": 300, "time": 9000, "fontsize": 110 }
+            ]
+          },
+          {    
+            "otherAreas": [  
+              { "letter": "ـد", "x": 188, "y": 607, "w": 93, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },
+              { "letter": "ـد", "x": 435, "y": 595, "w": 53, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 738, "y": 595, "w": 50, "h": 150, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 932, "y": 595, "w": 50, "h": 150, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 1258, "y": 602, "w": 84, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }
+            ],
+            "frames": [
+              { "key": "1", "text": "عَرۡشٞ", "x": 1300, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "مِسۡكِينٞ", "x": 1080, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "شَمۡعَةٞ", "x": 870, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "شَرَابٞ", "x": 670, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "عَشَرَةٞ", "x": 430, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 110 },
+              { "key": "1", "text": "رِيشٞ", "x": 220, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 }
+            ],
+            "images":[
+                { "key": "PhaserUnderlineFrame","depth":1, "x": 740, "y": 590, "w": 1400, "h": 300, "time": 9000, "fontsize": 110 }, 
+                { "key": "شFrame","depth":1, "x": 740, "y": 340, "w": 300, "h": 300, "time": 9000, "fontsize": 110 }
+            ]
+          },
+
+
+
+
+
+          {    
+            "otherAreas": [ 
+              { "letter": "ـد", "x": 168, "y": 607, "w": 95, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },
+              { "letter": "ـد", "x": 263, "y": 595, "w": 53, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },  
+              { "letter": "ـد", "x": 413, "y": 595, "w": 53, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },  
+              { "letter": "ـد", "x": 928, "y": 595, "w": 60, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 1178, "y": 595, "w": 60, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 1279, "y": 602, "w": 94, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }
+            ],
+            "frames": [
+              { "key": "1", "text": "غَوَّاصٞ", "x": 1330, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "صَارُوخٞ", "x": 1090, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "صُحُفٞ", "x": 840, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "ضِفۡدَعٞ", "x": 620, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "عَصًا", "x": 420, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 110 },
+              { "key": "1", "text": "قِصَصٞ", "x": 220, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 }
+            ],
+            "images":[
+                { "key": "PhaserUnderlineFrame","depth":1, "x": 740, "y": 590, "w": 1400, "h": 300, "time": 9000, "fontsize": 110 }, 
+                { "key": "صFrame","depth":1, "x": 740, "y": 340, "w": 300, "h": 300, "time": 9000, "fontsize": 110 }
+            ]
+          },
+          {    
+            "otherAreas": [ 
+              { "letter": "ـد", "x": 190, "y": 607, "w": 95, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 499, "y": 614, "w": 59, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true },  
+              { "letter": "ـد", "x": 668, "y": 595, "w": 60, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 1038, "y": 595, "w": 60, "h": 160, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }, 
+              { "letter": "ـد", "x": 1277, "y": 602, "w": 94, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50", "isTarget":true }
+            ],
+            "frames": [
+              { "key": "1", "text": "أَرۡضٞ", "x": 1300, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "بَعُوضَةٞ", "x": 1060, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "عَصِيرٞ", "x": 870, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "بَيْضَةٞ", "x": 670, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "ضِرۡسٞ", "x": 430, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 110 },
+              { "key": "1", "text": "بَيْضٞ", "x": 220, "y": 560, "w": 1300, "h": 180, "time": 9000, "fontsize": 100 }
+            ],
+            "images":[
+                { "key": "PhaserUnderlineFrame","depth":1, "x": 740, "y": 590, "w": 1400, "h": 300, "time": 9000, "fontsize": 110 }, 
+                { "key": "ضFrame","depth":1, "x": 740, "y": 340, "w": 300, "h": 300, "time": 9000, "fontsize": 110 }
+            ]
+          }
+        ]
+      }
+        ]
+    }
+]
+
+    

@@ -1,0 +1,351 @@
+﻿[ 
+    {
+        "pageid":"14",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب حرف الظا",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "126_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "126_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "126_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames":["PhaserColoring"],
+        "autoreader": [
+          "pagetitleaudios/42/1.mp3",
+          "pagetitleaudios/32/2.mp3",
+          "pagetitleaudios/32/3.mp3",
+          "pagetitleaudios/32/4.mp3"
+        ],
+        "exersices":[  
+           
+            {
+             "type": "PhaserColoring",
+             "display": "column",
+             "layout": {
+               "direction": "vertical",
+               "fit": "full"
+             },
+             "titles": {
+               "id": "2",
+               "titlearabic": ".اقرأْ، واكتبْ أشكالَ الحرفِ بخطٍّ جميلٍ",
+               "titleenglish": "Trace the letter, then copy it neatly",
+               "audio": "pagetitleaudios/86/1.mp3"
+             },
+             "size": {
+               "gridcol": "span 2",
+               "gridrow": "2/4"
+             },
+             "path": "/phasecoloring/",
+             "questions": [
+               {
+                 "areas": [
+                   {
+                     "letter": "ب",
+                     "x": 1190,
+                     "y": 430,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 1190,
+                     "y": 550,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 1190,
+                     "y": 670,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"  
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 1190,
+                     "y": 790,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+
+                   {
+                     "letter": "ب",
+                     "x": 870,
+                     "y": 430,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 870,
+                     "y": 550,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 870,
+                     "y": 670,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 870,
+                     "y": 790,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+
+                   {
+                     "letter": "ب",
+                     "x": 570,
+                     "y": 430,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 570,
+                     "y": 550,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 570,
+                     "y": 670,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 570,
+                     "y": 790,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+
+                   {
+                     "letter": "ب",
+                     "x": 275,
+                     "y": 430,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 275,
+                     "y": 550,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 275,
+                     "y": 670,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   },
+                   {
+                     "letter": "ب",
+                     "x": 275,
+                     "y": 790,
+                     "w": 280,
+                     "h": 110,
+                     "minStroke": 100,
+                     "letterAud": "ب"
+                   }
+                 ],
+                 "frames": [
+                   {
+                     "key": "ظ_u2Coloring",
+                     "x": 730,
+                     "y": 510,
+                     "w": 1200,
+                     "h": 900
+                   }
+                 ]
+               }
+             ]
+           },
+           {
+    "type": "PhaserLetterBoard",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "board": "/frame_board.png",
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "4/5",
+        "scaleY":"1.28",
+        "offsetY": "15%"
+    },
+    "path": "/phaserwords/",
+             "questionIndex":3,
+    "questions": [
+        {
+            "areas": [
+                { "letter": "ظ", "x": 670, "y": 600, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false },
+                { "letter": "ظ", "x": 670, "y": 840, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false }
+            ],
+            "frames": [
+                { "key": "thu_hofaz_F", "x": 750, "y": 550, "w": 1080, "h": 900 }
+            ],
+            "images": [
+                { "key": "hofaz", "x": 750, "y": 120, "w": 240, "h": 600, "audio": "hofaz", "path": "/" }
+            ]
+        },
+        {
+            "areas": [
+                { "letter": "ـظـ", "x": 810, "y": 600, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false },
+                { "letter": "ـظـ", "x": 810, "y": 840, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false }
+            ],
+            "frames": [
+                { "key": "thu_nazara_F", "x": 750, "y": 550, "w": 1080, "h": 900 }
+            ],
+            "images": [
+                { "key": "glass", "x": 750, "y": 150, "w": 300, "h": 600, "audio": "nazara", "path": "/" }
+            ]
+        },
+        {
+            "areas": [
+                { "letter": "ـظ", "x": 660, "y": 580, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false },
+                { "letter": "ـظ", "x": 660, "y": 812, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false }
+            ],
+            "frames": [
+                { "key": "thu_wa3ez_F", "x": 750, "y": 550, "w": 1080, "h": 900 }
+            ],
+            "images": [
+                { "key": "wa3z", "x": 740, "y": 140, "w": 160, "h": 600, "audio": "wa3ez", "path": "/" }
+            ]
+        },
+        {
+            "areas": [
+                { "letter": "ظـ", "x": 850, "y": 598, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false },
+                { "letter": "ظـ", "x": 850, "y": 836, "w": 200, "h": 200, "minStroke": 50, "fontsize": 150, "letterAud": "ظ", "color": "#E03254","requiredStrokes": 3, "yOffset": false }
+            ],
+            "frames": [
+                { "key": "thu_zafr_F", "x": 750, "y": 550, "w": 1080, "h": 900 }
+            ],
+            "images": [
+                { "key": "zfr", "x": 750, "y": 150, "w": 150, "h": 600, "audio": "zofr", "path": "/" }
+            ]
+        }
+    ]
+},
+           {
+    "type": "PhaserChoose",
+    "display": "column",
+    "titles": {
+        "id": "1",
+        "titlearabic": ".مَيِّزِ المَوْقِعَ الصَّحِيحَ لِمَكَانِ الْحَرْفِ مِنَ الْسَطْرِ",
+        "titleenglish": "Identify the correct position of the letter in relation to the line.",
+        "audio": "pagetitleaudios/86/3.mp3",
+        "fontsize": "1"
+    },
+    "size": {
+                    "gridcol": "span 2",
+                    "gridrow": "5/6",
+                    "scaleY":"0.65",
+                    "offsetY": "10%"
+    },
+    "path": "/phaserchoose/pg14/",
+    "questions": [
+        {
+            "options": [
+                {"key": "option1","x": 414,"y": 400,"w": 300,"h": 300,"letter": "ظ", "fontSize":200, "fontFamily":"aamiri", "color": "#00A9EC","isCorrect": false},
+                {"key": "option1","x": 739,"y": 600,"w": 300,"h": 300,"letter": "ظ", "fontSize":200, "fontFamily":"aamiri", "color": "#00A9EC","isCorrect": false},
+                {"key": "option1","x": 1065,"y": 460,"w": 300,"h": 300,"letter": "ظ", "fontSize":200, "fontFamily":"aamiri", "color": "#00A9EC","isCorrect": true}
+            ],
+            "images": [
+                {"key": "U2ChooseFrame","x": 745,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","frame": "1-1","scale": 1.4}
+            ]
+        },
+        {
+            "options": [
+                {"key": "option1","x": 739,"y": 460,"w": 300,"h": 300,"letter": "ظـ", "fontSize":200, "fontFamily":"aamiri", "color": "red","isCorrect": true},
+                {"key": "option1","x": 414,"y": 350,"w": 300,"h": 300,"letter": "ظـ", "fontSize":200, "fontFamily":"aamiri", "color": "red","isCorrect": false},
+                {"key": "option1","x": 1065,"y": 550,"w": 300,"h": 300,"letter": "ظـ", "fontSize":200, "fontFamily":"aamiri", "color": "red","isCorrect": false}
+            ],
+            "images": [
+                {"key": "U2ChooseFrame","x": 745,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","frame": "1-1","scale": 1.4}
+            ]
+        },
+        {
+            "options": [
+                {"key": "option1","x": 414,"y": 400,"w": 300,"h": 300,"letter": "ـظـ", "fontSize":200, "fontFamily":"aamiri", "color": "#34AD33","isCorrect": false, "padding":22},
+                {"key": "option1","x": 1065,"y": 460,"w": 300,"h": 300,"letter": "ـظـ", "fontSize":200, "fontFamily":"aamiri", "color": "#34AD33","isCorrect": true, "padding":22},
+                {"key": "option1","x": 739,"y": 550,"w": 300,"h": 300,"letter": "ـظـ", "fontSize":200, "fontFamily":"aamiri", "color": "#34AD33","isCorrect": false, "padding":22}
+            ],
+            "images": [
+                {"key": "U2ChooseFrame","x": 745,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","frame": "1-1","scale": 1.4}
+            ]
+        },
+        {
+            "options": [
+                {"key": "option1","x": 739,"y": 410,"w": 300,"h": 300,"letter": "ـظ", "fontSize":200, "fontFamily":"aamiri", "color": "#B63D90","isCorrect": false, "padding":22},
+                {"key": "option1","x": 1065,"y": 550,"w": 300,"h": 300,"letter": "ـظ", "fontSize":200, "fontFamily":"aamiri", "color": "#B63D90","isCorrect": false, "padding":22},
+                {"key": "option1","x": 414,"y": 460,"w": 300,"h": 300,"letter": "ـظ", "fontSize":200, "fontFamily":"aamiri", "color": "#B63D90","isCorrect": true, "padding":22}
+            ],
+            "images": [
+                {"key": "U2ChooseFrame","x": 745,"y": 500,"w": 300,"h": 300,"letter": "","color": "red","frame": "1-1","scale": 1.4}
+            ]
+        }
+    ]
+}
+        ]
+    }
+]
+
+    

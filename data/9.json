@@ -1,0 +1,230 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "minigames":{
+      "title": "العاب حرف الباء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "8_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "8_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "8_AppleTree.json"
+        }
+      ]
+    },
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "autoreader": [
+      "pagetitleaudios/9/1.mp3",
+      "/quran_audio/9/1.mp3",
+      "/quran_audio/9/2.mp3",
+      "/quran_audio/9/3.mp3",
+      "/quran_audio/9/4.mp3",
+      "/quran_audio/9/5.mp3"
+    ],
+    "exersices": [ 
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "2",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الْبَاءِ",
+          "titleenglish": "Listen and underline the letter (ب)",
+          "audio": "pagetitleaudios/9/1.mp3",
+          "image":"/quranIcon.png",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/9/",
+        "letter":"ب",
+        "dialogue":{
+          "key":"V-bab",
+          "background":"0xE1F4F5",
+          "text":"افْتَحْ مُصْحَفَكَ وَتَتَبَّعْ حَرْفَ البَا / البَاءِ",
+          "fontSize":65,
+          "speed":39
+        },
+        "questions": [
+          {
+            "quranaudio": "9-1",
+            "ayaverse": "سورة البقرة آية 264",
+            "ayaverseEnglish": "Surah Al-Baqarah Verse 264",
+            "areas": [
+              {
+                "letter": "بٞ",
+                "x": 754,
+                "y": 546,
+                "w": 80,
+                "h": 180,
+                "minStroke": 20,
+                "letterN":"ب",
+                "alpha": 1,
+                "fontsize": 70,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+            "otherAreas": [
+              { 
+                "letter": "بـ",
+                "x": 484,
+                "y": 546,
+                "w": 26,
+                "h": 180, 
+                "message":"!اختر الشكل المنفصل",
+                "alpha": 1, 
+                "fontsize": 95,
+                "color": "#DB2A50"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾فَمَثَلُهُۥ كَمَثَلِ صَفۡوَانٍ عَلَيۡهِ تُرَا    فَأَصَابَهُۥ وَابِلٞ فَتَرَكَهُۥ صَلۡدٗاۖ ٢٦٤ ﴿",
+                "x": 760,
+                "y": 500,
+                "w": 1390,
+                "h": 190,
+                "time": 16000,
+                "fontsize": 70
+              }
+            ]
+          },
+          {
+            "quranaudio": "9-2",
+            "ayaverse": "سورة الماعون آية 1",
+            "ayaverseEnglish": "Surah Al-Ma'un Verse 1",
+            "areas": [
+              {
+                "letter": "بُ",
+                "x": 620,
+                "y": 550,
+                "w": 80,
+                "h": 200,
+                "minStroke": 20,
+                "letterN":"ب",
+                "alpha": 1,
+                "fontsize": 95,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+            "otherAreas": [
+              { 
+                "letter": "بـ",
+                "x": 550,
+                "y": 546,
+                "w": 60,
+                "h": 200, 
+                "message":"!اختر الشكل المنفصل",
+                "alpha": 1, 
+                "fontsize": 95,
+                "color": "#DB2A50"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": " ﴾أَرَءَيۡتَ ٱلَّذِي يُكَذِّ    بِٱلدِّينِ ١ ﴿",
+                "x": 740,
+                "y": 500,
+                "w": 1000,
+                "h": 210,
+                "time": 8000,
+                "fontsize": 95
+              }
+            ]
+          },
+          {
+            "quranaudio": "9-3",
+            "ayaverse": "سورة الغاشية آية 14",
+            "ayaverseEnglish": "Surah Al-Ghashiyah Verse 14",
+            "areas": [
+              {
+                "letter": "بٞ",
+                "x": 844,
+                "y": 548,
+                "w":80,
+                "h": 260,
+                "minStroke": 20,
+                "letterN":"ب",
+                "alpha": 1,
+                "fontsize": 120,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ], 
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾وَأَكۡوَا    مَّوۡضُوعَةٞ ١٤﴿",
+                "x": 740,
+                "y": 500,
+                "w": 900,
+                "h": 180,
+                "time": 6500,
+                "fontsize": 120
+              }
+            ]
+          },
+          {
+            "quranaudio": "9-4",
+            "ayaverse": "سورة الطور آية 44",
+            "ayaverseEnglish": "Surah At-Tur Verse 44",
+            "areas": [{ "letter": "بٞ", "x": 326, "y": 620, "w": 80, "h": 170, "minStroke": 20,
+                "letterN":"ب", "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "baa" }],
+            "frames": [{ "key": "1", "text": "﴾ وَإِن يَرَوۡاْ كِسۡفٗا مِّنَ ٱلسَّمَآءِ سَاقِطٗا يَقُولُواْ سَحَا    مَّرۡكُومٞ ٤٤ ﴿", "x": 740, "y": 570, "w": 1480, "h": 250, "time": 14000, "fontsize": 80 }]
+          },
+          {
+            "quranaudio": "9-5",
+            "ayaverse": "سورة الحديد آية 13",
+            "ayaverseEnglish": "Surah Al-Hadid Verse 13",
+            "areas": [
+              { "letter": "بُۢ", "x": 495, "y": 520, "w": 90, "h": 180, "minStroke": 20,
+                "letterN":"ب", "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "baa" },
+              { "letter": "بُ", "x": 330, "y": 695, "w": 90, "h": 180, "minStroke": 20,
+                "letterN":"ب", "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "baa" }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 560, "y": 516, "w": 60, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "ـبـ", "x": 650, "y": 685, "w": 40, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 880, "y": 516, "w": 60, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 1080, "y": 516, "w": 60, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 415, "y": 516, "w": 64, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "ب", "x": 1160, "y": 516, "w": 90, "h": 180,  "message":"!صحيح", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              { "key": "1", "text": "فَضُرِبَ بَيۡنَهُم بِسُورٖ لَّهُۥ بَا    بَاطِنُهُۥ فِيهِ ﴿", "x": 740, "y": 470, "w": 1400, "h": 180, "time": 8000, "fontsize": 110 },
+              { "key": "1", "text": "﴾ٱلرَّحۡمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلۡعَذَا    ١٣", "x": 740, "y": 650, "w": 1200, "h": 180, "time": 9000, "fontsize": 110 }
+          ]
+          }
+        ]
+      }
+    ]
+  }
+]

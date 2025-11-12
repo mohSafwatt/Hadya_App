@@ -1,0 +1,139 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الكاف",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "58_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "58_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "58_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الكَافْ",
+          "titleenglish": "Listen and underline the letter (ك).",
+          "audio": "pagetitleaudios/59/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/59/",
+        "letter": "ك",
+        "questions": [
+          {
+            "quranaudio": "59-1",
+            "ayaverse": "سورة الأعلى آية 8",
+            "ayaverseEnglish": "Surah Al-A'la Verse 8",
+            "areas": [
+              {
+                "letterN":"ك", "letter": "كَ", "x": 820, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 120, "color": "#DB2A50", "audio": "kaf" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ وَنُيَسِّرُ   لِلۡيُسۡرَىٰ ٨ ﴿", "x": 720, "y": 590, "w": 850, "h": 200, "time": 5000, "fontsize": 120 }
+            ]
+          },
+          {
+            "quranaudio": "59-2",
+            "ayaverse": "سورة عبس آية 8",
+            "ayaverseEnglish": "Surah Abasa Verse 8",
+            "areas": [
+              {
+                "letterN":"ك", "letter": "كَ", "x": 670, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 120, "color": "#DB2A50", "audio": "kaf" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ وَأَمَّا مَن جَآءَ   يَسۡعَىٰ ٨ ﴿", "x": 740, "y": 590, "w": 1000, "h": 180, "time": 8000, "fontsize": 120 }
+            ]
+          },
+          {
+            "quranaudio": "59-3",
+            "ayaverse": "سورة الانفطار آية 6",
+            "ayaverseEnglish": "Surah Al-Infitar Verse 6",
+            "areas": [
+              {
+                "letterN":"ك", "letter": "كَ", "x": 680, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 110, "color": "#DB2A50", "audio": "kaf" }
+            ],
+            "otherAreas": [
+              { "letter": "ـبـ", "x": 340, "y": 620, "w": 60, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ يَٰٓأَيُّهَا ٱلۡإِنسَٰنُ مَا غَرَّ   بِرَبِّكَ ٱلۡكَرِيمِ ٦ ﴿", "x": 740, "y": 590, "w": 1440, "h": 180, "time": 12000, "fontsize": 110 }
+            ]
+          },
+          {
+            "quranaudio": "59-4",
+            "ayaverse": "سورة الضحى آية 6-8",
+            "ayaverseEnglish": "Surah Ad-Duha Verse 6-8",
+            "areas": [
+              {
+                "letterN":"ك", "letter": "كَ", "x": 1140, "y": 540, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" },
+              {
+                "letterN":"ك", "letter": "كَ", "x": 525, "y": 540, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" },
+              {
+                "letterN":"ك", "letter": "كَ", "x": 890, "y": 680, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" }
+            ],
+            "frames": [
+              { "key": "1", "text": "أَلَمۡ يَجِدۡ   يَتِيمٗا فَـَٔاوَىٰ ٦ وَوَجَدَ   ضَآلّٗا فَهَدَىٰ ٧﴿", "x": 740, "y": 490, "w": 1300, "h": 140, "time": 16000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَوَجَدَ   عَآئِلٗا فَأَغۡنَىٰ ٨", "x": 740, "y": 630, "w": 700, "h": 140, "time": 8000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "59-5",
+            "ayaverse": "سورة الشرح آية 1-4",
+            "ayaverseEnglish": "Surah Ash-Sharh Verse 1-4",
+            "areas": [
+              {
+                "letterN":"ك", "letter": "كَ", "x": 820, "y": 540, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" },
+              {
+                "letterN":"ك", "letter": "كَ", "x": 210, "y": 540, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" },
+              {
+                "letterN":"ك", "letter": "كَ", "x": 830, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" },
+              {
+                "letterN":"ك", "letter": "كَ", "x": 300, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "kaf" }
+            ],
+            "otherAreas": [
+              { "letter": "ـبـ", "x": 377, "y": 647, "w": 50, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَ   ١ وَوَضَعۡنَا عَنكَ وِزۡرَ   ٢﴿", "x": 740, "y": 490, "w": 1300, "h": 150, "time": 12000, "fontsize": 85 },
+              { "key": "1", "text": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَ   ٣ وَرَفَعۡنَا لَكَ ذِكۡرَ   ٤", "x": 740, "y": 620, "w": 1200, "h": 150, "time": 13000, "fontsize": 85 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+"id": 5,
+"title": "",
+"special": true,
+"backgroundImage":"u2/pg85/pg85BG.png",
+"areas": [
+  { "id": "85-1", "letter": "1", "image": "u2/pg85/pg85_1.png", "audio": "u2/pg85/pg85_1.mp3", "top": "6%", "left": "21%", "width": "60%" },
+  { "id": "85-2", "letter": "1", "image": "u2/pg85/pg85_2.png", "audio": "u2/pg85/pg85_2.mp3", "top": "10%", "left": "10%", "width": "80%" },
+  { "id": "85-3", "letter": "ا", "image": "u2/pg85/pg85_3.png", "audio": "u2/pg85/pg85_3.mp3", "top": "16%", "left": "49%", "width": "45%" }, 
+  { "id": "85-4", "letter": "ب", "image": "u2/pg85/pg85_4.png", "audio": "u2/pg85/pg85_4-5.mp3", "top": "20%", "left": "56%", "width": "27%" },
+  { "id": "85-5", "letter": "ت", "image": "u2/pg85/pg85_5.png", "audio": "u2/pg85/pg85_4-5.mp3", "top": "18%", "left": "15%", "width": "27%" },
+  { "id": "85-6", "letter": "ث", "image": "u2/pg85/pg85_6.png", "audio": "u2/pg85/pg85_6.mp3", "top": "27%", "left": "10%", "width": "80%" },
+  { "id": "85-7", "letter": "ج", "image": "u2/pg85/pg85_7.png", "audio": "u2/pg85/pg85_7.mp3", "top": "32.6%", "left": "49%", "width": "45%" },
+  { "id": "85-8", "letter": "ح", "image": "u2/pg85/pg85_8.png", "audio": "u2/pg85/pg85_8-9.mp3", "top": "36%", "left": "56%", "width": "30%" }, 
+  { "id": "85-9", "letter": "خ", "image": "u2/pg85/pg85_9.png", "audio": "u2/pg85/pg85_8-9.mp3", "top": "33%", "left": "15%", "width": "27%" }, 
+  { "id": "85-10", "letter": "د", "image": "u2/pg85/pg85_10.png", "audio": "u2/pg85/pg85_10.mp3", "top": "44%", "left": "30%", "width": "37%" },
+  { "id": "85-11", "letter": "ذ", "image": "u2/pg85/pg85_11.png", "audio": "u2/pg85/pg85_11.mp3", "top": "49%", "left": "10%", "width": "80%" },
+  { "id": "85-12", "letter": "ر", "image": "u2/pg85/pg85_12.png", "audio": "u2/pg85/pg85_12.mp3", "top": "54.7%", "left": "70%", "width": "28%" },
+  { "id": "85-13", "letter": "ر", "image": "u2/pg85/pg85_13.png", "audio": "u2/pg85/pg85_13.mp3", "top": "54.7%", "left": "38%", "width": "26%" },
+  { "id": "85-14", "letter": "ر", "image": "u2/pg85/pg85_14.png", "audio": "u2/pg85/pg85_14.mp3", "top": "54.7%", "left": "2%", "width": "26%" },
+  { "id": "85-15", "letter": "ر", "image": "u2/pg85/pg85_15.png", "audio": "u2/pg85/pg85_15.mp3", "top": "64%", "left": "12%", "width": "80%" },
+  { "id": "85-16", "letter": "ر", "image": "u2/pg85/pg85_16.png", "audio": "u2/pg85/pg85_16.mp3", "top": "68%", "left": "70%", "width": "28%" },
+  { "id": "85-17", "letter": "ر", "image": "u2/pg85/pg85_17.png", "audio": "u2/pg85/pg85_17.mp3", "top": "68%", "left": "38%", "width": "26%" },
+  { "id": "85-18", "letter": "ر", "image": "u2/pg85/pg85_18.png", "audio": "u2/pg85/pg85_18.mp3", "top": "68%", "left": "2%", "width": "26%" },
+  { "id": "85-19", "letter": "ر", "image": "u2/pg85/pg85_19.png", "audio": "u2/pg85/pg85_19.mp3", "top": "77.5%", "left": "11.4%", "width": "80%" },
+  { "id": "85-20", "letter": "ر", "image": "u2/pg85/pg85_20.png", "audio": "u2/pg85/pg85_20.mp3", "top": "82.5%", "left": "70%", "width": "26%" },
+  { "id": "85-21", "letter": "ر", "image": "u2/pg85/pg85_21.png", "audio": "u2/pg85/pg85_21.mp3", "top": "84%", "left": "38%", "width": "26%" },
+  { "id": "85-22", "letter": "ر", "image": "u2/pg85/pg85_22.png", "audio": "u2/pg85/pg85_22.mp3", "top": "83%", "left": "2%", "width": "26%" }
+]
+}

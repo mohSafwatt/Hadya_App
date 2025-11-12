@@ -1,0 +1,36 @@
+{
+    "id": 5,
+    "title": "",
+    "special": true,
+    "backgroundImage": "Audio_Book/mahaza/bg.png",
+
+"areas": [ 
+
+  { "id": "77-1", "letter": "1", "image": "Audio_Book/mahaza/Title.png", "audio": "Audio_Book/mahaza/title.mp3", "top": "9%", "left": "50%", "width": "40%" },  
+  
+  { "id": "161-2", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 1.png", "audio": "Audio_Book/mahaza/161/73.mp3", "top": "15%", "left": "53%", "width": "38%" },
+  { "id": "161-3", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 2.png", "audio": "Audio_Book/mahaza/161/74.mp3", "top": "15%", "left": "10%", "width": "38%" },
+  { "id": "161-4", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 3.png", "audio": "Audio_Book/mahaza/161/75.mp3", "top": "21.5%", "left": "53%", "width": "38%" },
+  { "id": "161-5", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 4.png", "audio": "Audio_Book/mahaza/161/76.mp3", "top": "21.5%", "left": "10%", "width": "38%" },
+  { "id": "161-6", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 5.png", "audio": "Audio_Book/mahaza/161/77.mp3", "top": "28%", "left": "53%", "width": "38%" },
+  { "id": "161-7", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 6.png", "audio": "Audio_Book/mahaza/161/78.mp3", "top": "28%", "left": "10%", "width": "38%" },
+  { "id": "161-8", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 7.png", "audio": "Audio_Book/mahaza/161/79.mp3", "top": "34.5%", "left": "53%", "width": "38%" },
+  { "id": "161-9", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 8.png", "audio": "Audio_Book/mahaza/161/80.mp3", "top": "34.5%", "left": "10%", "width": "38%" },
+  { "id": "161-10", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 9.png", "audio": "Audio_Book/mahaza/161/81.mp3", "top": "41%", "left": "53%", "width": "38%" },
+  { "id": "161-11", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 10.png", "audio": "Audio_Book/mahaza/161/82.mp3", "top": "41%", "left": "10%", "width": "38%" },
+  { "id": "161-12", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 11.png", "audio": "Audio_Book/mahaza/161/83.mp3", "top": "47.5%", "left": "53%", "width": "38%" },
+  { "id": "161-13", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 12.png", "audio": "Audio_Book/mahaza/161/84.mp3", "top": "47.5%", "left": "10%", "width": "38%" },
+  { "id": "161-14", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 13.png", "audio": "Audio_Book/mahaza/161/85.mp3", "top": "54%", "left": "53%", "width": "38%" },
+  { "id": "161-15", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 14.png", "audio": "Audio_Book/mahaza/161/86.mp3", "top": "53%", "left": "10%", "width": "38%" },
+  { "id": "161-16", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 15.png", "audio": "Audio_Book/mahaza/161/87.mp3", "top": "60.5%", "left": "53%", "width": "38%" },
+  { "id": "161-17", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 16.png", "audio": "Audio_Book/mahaza/161/88.mp3", "top": "60.5%", "left": "10%", "width": "38%" },
+  { "id": "161-18", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 17.png", "audio": "Audio_Book/mahaza/161/89.mp3", "top": "67%", "left": "53%", "width": "38%" },
+  { "id": "161-19", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 18.png", "audio": "Audio_Book/mahaza/161/90.mp3", "top": "67%", "left": "10%", "width": "38%" },
+  { "id": "161-20", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 19.png", "audio": "Audio_Book/mahaza/161/91.mp3", "top": "73.5%", "left": "53%", "width": "38%" },
+  { "id": "161-21", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 20.png", "audio": "Audio_Book/mahaza/161/92.mp3", "top": "73.5%", "left": "10%", "width": "38%" },
+  { "id": "161-22", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 21.png", "audio": "Audio_Book/mahaza/161/93.mp3", "top": "80%", "left": "53%", "width": "38%" },
+  { "id": "161-23", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 22.png", "audio": "Audio_Book/mahaza/161/94.mp3", "top": "80%", "left": "10%", "width": "38%" },
+  { "id": "161-24", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 23.png", "audio": "Audio_Book/mahaza/161/95.mp3", "top": "86.5%", "left": "53%", "width": "38%" },
+  { "id": "161-25", "letter": "1", "image": "Audio_Book/mahaza/161/Layer 24.png", "audio": "Audio_Book/mahaza/161/96.mp3", "top": "86.5%", "left": "10%", "width": "38%" }
+]
+}

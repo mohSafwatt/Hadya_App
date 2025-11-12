@@ -1,0 +1,139 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الصاد",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "38_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "38_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "38_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الصَّادْ",
+          "titleenglish": "Listen and underline the letter (ص).",
+          "audio": "pagetitleaudios/39/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/39/",
+        "letter":"ص",
+        "questions": [
+          {
+            "quranaudio": "39-1",
+            "ayaverse": "سورة البقرة آية 182",
+            "ayaverseEnglish": "Surah Al-Baqarah Verse 182",
+            "areas": [
+              {
+                "letterN":"ص", "letter": "صٍ", "x": 807, "y": 530, "w": 70, "h": 140, "minStroke": 20, "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "saad" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "بـ", "x": 393, "y": 506, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "فَمَنۡ خَافَ مِن مُّو    جَنَفًا أَوۡ إِثۡمٗا فَأَصۡلَحَ بَيۡنَهُمۡ﴿", "x": 720, "y": 480, "w": 1170, "h": 133, "time": 12000, "fontsize": 80 },
+              { "key": "1", "text": "﴾فَلَآ إِثۡمَ عَلَيۡهِۚ إِنَّ ٱللَّهَ غَفُورٞ رَّحِيمٌ ١٨٢", "x": 720, "y": 630, "w": 900, "h": 130, "time": 15000, "fontsize": 80 }
+            ]
+          },
+          {
+            "quranaudio": "39-2",
+            "ayaverse": "سورة آل عمران آية 49",
+            "ayaverseEnglish": "Surah Al Imran Verse 49",
+            "areas": [
+              {
+                "letterN":"ص", "letter": "صَ", "x": 730, "y": 530, "w": 70, "h": 140, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "saad" }
+            ],
+            "frames": [
+              { "key": "1", "text": "وَأُبۡرِئُ ٱلۡأَكۡمَهَ وَٱلۡأَبۡرَ    وَأُحۡيِ ٱلۡمَوۡتَىٰ بِإِذۡنِ ٱللَّهِۖ﴿", "x": 740, "y": 480, "w": 1220, "h": 180, "time": 11000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَأُنَبِّئُكُم بِمَا تَأۡكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمۡۚ ٤٩", "x": 740, "y": 650, "w": 1370, "h": 180, "time": 15000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "39-3",
+            "ayaverse": "سورة هود آية 109",
+            "ayaverseEnglish": "Surah Hud Verse 109",
+            "areas": [
+              {
+                "letterN":"ص", "letter": "صٖ", "x": 180, "y": 676, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 75, "color": "#DB2A50", "audio": "saad" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـبـ", "x": 577, "y": 676, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "فَلَا تَكُ فِي مِرۡيَةٖ مِّمَّا يَعۡبُدُ هَٰٓؤُلَآءِۚ مَا يَعۡبُدُونَ إِلَّا كَمَا﴿", "x": 740, "y": 480, "w": 1200, "h": 180, "time": 17000, "fontsize": 75 },
+              { "key": "1", "text": "﴾يَعۡبُدُ ءَابَآؤُهُم مِّن قَبۡلُۚ وَإِنَّا لَمُوَفُّوهُمۡ نَصِيبَهُمۡ غَيۡرَ مَنقُو    ١٠٩", "x": 740, "y": 630, "w": 1370, "h": 180, "time": 19000, "fontsize": 75 }
+            ]
+          },
+          {
+            "quranaudio": "39-4",
+            "ayaverse": "سورة ص آية 36-37",
+            "ayaverseEnglish": "Surah Sad Verse 36-37",
+            "areas": [
+              {
+                "letterN":"ص", "letter": "صٖ", "x": 475, "y": 680, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "saad" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "بـ", "x": 266, "y": 526, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "فَسَخَّرۡنَا لَهُ ٱلرِّيحَ تَجۡرِي بِأَمۡرِهِۦ رُخَآءً حَيۡثُ أَصَابَ ٣٦﴿", "x": 740, "y": 480, "w": 1400, "h": 180, "time": 15000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَٱلشَّيَٰطِينَ كُلَّ بَنَّآءٖ وَغَوَّا    ٣٧", "x": 740, "y": 630, "w": 800, "h": 180, "time": 13000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "39-5",
+            "ayaverse": "سورة الصف آية 4",
+            "ayaverseEnglish": "Surah As-Saff Verse 4",
+            "areas": [
+              {
+                "letterN":"ص", "letter": "صٞ", "x": 430, "y": 680, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "saad" }
+            ],
+             "otherAreas": [ 
+              {  "letter": "ـبـ", "x": 1177, "y": 676, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} ,
+              {  "letter": "ـبـ", "x": 550, "y": 676, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"} 
+            ],
+            "frames": [
+              { "key": "1", "text": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَٰتِلُونَ فِي سَبِيلِهِۦ﴿", "x": 740, "y": 480, "w": 1160, "h": 180, "time": 9000, "fontsize": 100 },
+              { "key": "1", "text": "﴾صَفّٗا كَأَنَّهُم بُنۡيَٰنٞ مَّرۡصُو    ٤", "x": 740, "y": 630, "w": 1000, "h": 180, "time": 10000, "fontsize": 100 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

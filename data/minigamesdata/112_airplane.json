@@ -1,0 +1,96 @@
+{
+  "thumbnailKey": "minigames/assets/thumbnails/planeThumb.png",
+  "gameType": "AirplaneGame",
+  "questions": [
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["د", "ـد"],
+        "letters": ["د", "ذ", "ـد", "ر", "ز", "م", "ن", "و"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الدال",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 2
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ذ", "ـذ"],
+        "letters": ["د", "ذ", "ـذ", "س", "ر", "ز", "ص", "ض"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الذال",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 2
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ر", "ـر"],
+        "letters": ["ر", "ز", "ـر", "و", "د", "ذ", "م", "ن"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الراء",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 2
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ز", "ـز"],
+        "letters": ["ر", "ز", "ـز", "ن", "م", "و", "ك", "ل"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Blimp",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الزاي",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar", "bgMid", "bgClose"],
+        "speed": 180,
+        "targetCount": 2
+      }
+],
+  "assets": {
+    "images": {
+      "Explosion": "minigames/assets/Explosion.png",
+      "Blimp": "minigames/assets/Blimp.png",
+      "bgFar": "minigames/assets/farParalax.png",
+      "bgMid": "minigames/assets/midParalax.png",
+      "bgClose": "minigames/assets/CloseParalax.png",
+      "Basket": "minigames/assets/Basket.png"
+    }, 
+    "audio": {
+      "collect": "drop.mp3",
+      "hit": "drop.mp3"
+    },
+    "spritesheets": {
+      "planeSprite": {
+        "path": "minigames/assets/planespritesheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      },
+      "planeDestroyedSpriteSheet": {
+        "path": "minigames/assets/planeDestroyedSpriteSheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      }
+    }
+  }
+}

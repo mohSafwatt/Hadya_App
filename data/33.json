@@ -1,0 +1,459 @@
+[ 
+    {
+        "pageid":"14",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب الحروف (د-ذ-ر-ز)",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "32_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "32_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "32_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "LettersImagesDrop",
+      "BigletterBoard",
+      "QuranPhaser2" 
+    ],
+        "autoreader": [
+          "pagetitleaudios/15/1.mp3",
+          "/audio/garad.mp3",
+          "/audio/ozon.mp3",
+          "/audio/nar.mp3",
+          "/audio/agoz.mp3",
+          "pagetitleaudios/15/2.mp3",
+          "pagetitleaudios/15/3.mp3",
+          "/quran_audio/33/1.mp3",
+          "/quran_audio/33/2.mp3",
+          "/quran_audio/33/3.mp3"
+        ],
+        "exersices":[ 
+          {
+    "type": "LettersImagesDrop",
+    "display": "column",
+    "titles": {
+        "id": "1",
+        "titlearabic": "اخْتَرِ الحَرْفَ المُنَاسِبَ وَأَكْمِلْ بِهِ الكَلِمَةَ",
+        "titleenglish": "Choose the correct letter and complete the word",
+        "audio": "pagetitleaudios/43/1.mp3",
+        "fontsize": "1.1vh"
+    },
+    "size": {
+        "gridcol": "2",
+        "gridrow": "2/4"
+    },
+    "path": "/dragDropImages/33/",
+    "questions": [
+        {
+            "pieces": [
+                {
+                    "x": 1095,
+                    "y": 550,
+                    "w": 39,
+                    "key": "DDد",
+                    "correctDropZone": "dz4",
+                    "scale": "4"
+                },
+                {
+                    "x": 951,
+                    "y": 540,
+                    "w": 39,
+                    "key": "DDذ",
+                    "correctDropZone": "dz1",
+                    "scale": "15"
+                }
+            ],
+            "dropzones": [
+                {
+                    "x": 489,
+                    "y": 528,
+                    "w": 730,
+                    "key": "pg33dropzone1",
+                    "id": "dz4",
+                    "audio":"garad",
+                    "scale": "15",
+                    "snapX": 575,
+                    "snapY": 550
+                }
+            ],
+            "frames": [
+                {
+                    "x": 1036,
+                    "y": 540,
+                    "w": 487,
+                    "key": "optionsFrame"
+                }
+            ]
+        },
+        {
+            "pieces": [
+                {
+                    "x": 1095,
+                    "y": 550,
+                    "w": 39,
+                    "key": "DDد",
+                    "correctDropZone": "dz4",
+                    "scale": "4"
+                },
+                {
+                    "x": 951,
+                    "y": 540,
+                    "w": 39,
+                    "key": "DDذ",
+                    "correctDropZone": "dz1",
+                    "scale": "15"
+                }
+            ],
+            "dropzones": [
+                {
+                    "x": 455,
+                    "y": 538,
+                    "w": 730,
+                    "key": "pg33dropzone2",
+                    "id": "dz1",
+                    "audio":"ozon",
+                    "scale": "15",
+                    "snapX": 599,
+                    "snapY": 572
+                }
+            ],
+            "frames": [
+                {
+                    "x": 1036,
+                    "y": 540,
+                    "w": 487,
+                    "key": "optionsFrame"
+                }
+            ]
+        },
+        {
+            "pieces": [
+                {
+                    "x": 1095,
+                    "y": 550,
+                    "w": 55,
+                    "key": "DDر",
+                    "correctDropZone": "dz4",
+                    "scale": "4"
+                },
+                {
+                    "x": 951,
+                    "y": 540,
+                    "w": 50,
+                    "key": "DDز",
+                    "correctDropZone": "dz1",
+                    "scale": "15"
+                }
+            ],
+            "dropzones": [
+                {
+                    "x": 455,
+                    "y": 520,
+                    "w": 730,
+                    "key": "pg33dropzone3",
+                    "id": "dz4",
+                    "audio":"nar",
+                    "scale": "15",
+                    "snapX": 586,
+                    "snapY": 561
+                }
+            ],
+            "frames": [
+                {
+                    "x": 1036,
+                    "y": 540,
+                    "w": 487,
+                    "key": "optionsFrame"
+                }
+            ]
+        },
+        {
+            "pieces": [
+                {
+                    "x": 1095,
+                    "y": 550,
+                    "w": 55,
+                    "key": "DDر",
+                    "correctDropZone": "dz4",
+                    "scale": "4"
+                },
+                {
+                    "x": 951,
+                    "y": 540,
+                    "w": 50,
+                    "key": "DDز",
+                    "correctDropZone": "dz1",
+                    "scale": "15"
+                }
+            ],
+            "dropzones": [
+                {
+                    "x": 430,
+                    "y": 550,
+                    "w": 800,
+                    "key": "pg33dropzone4",
+                    "id": "dz1",
+                    "scale": "15",
+                    "audio":"agoz",
+                    "snapX": 521,
+                    "snapY": 560
+                }
+            ],
+            "frames": [
+                {
+                    "x": 1036,
+                    "y": 540,
+                    "w": 487,
+                    "key": "optionsFrame"
+                }
+            ]
+        }
+    ]
+},
+            {    
+                "type":"BigletterBoard",
+                "display":"column",
+                "layout": {
+                  "direction": "vertical", 
+                  "fit": "full"            
+                },
+                "board":"/frame_board.png",
+                "titles":{ 
+                  "id":"2",
+                  "titlearabic": "اكْتُبِ الْأحْرُفَ النَّاقِصَةَ, وَاقْرَأْ بِالتَّرْتِيبِ",
+                  "titleenglish": "Complete the missing letters and read in order",
+                  "audio":"pagetitleaudios/15/2.mp3",
+                  "fontsize":"1.1vh",
+                  "hideTitles":true
+                },
+                 "size":{
+                    "gridcol":"1",
+                    "gridrow":"2/4"
+                },
+                "path":"/lettersboard/",
+                "questions":[ 
+                   {   
+                "areas": [
+{ "letter": "ا", "x": 710, "y": 70, "w": 100, "h": 100, "minStroke": 50, "letterAud":"ا" },
+{ "letter": "ب", "x": 1140, "y": 205, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ب" },
+{ "letter": "ت", "x": 980, "y": 205, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ت" },
+{ "letter": "ث", "x": 790, "y": 205, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ث" },
+{ "letter": "ح", "x": 490, "y": 240, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ح" },
+{ "letter": "د", "x": 1160, "y": 356, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"د"},
+{ "letter": "ذ", "x": 1000, "y": 356, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"ذ"},
+{ "letter": "ر", "x": 890, "y": 376, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"ر"},
+{ "letter": "ز", "x": 760, "y": 376, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"ز"}
+             ],
+             "letterboarditems": [
+{ "letter": "ا", "x": 100, "y": 70, "w": 100, "h": 100, "minStroke": 50, "letterAud":"ا" },
+{ "letter": "ب", "x": 100, "y": 140, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ب" },
+{ "letter": "ت", "x": 100, "y": 210, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ت" },
+{ "letter": "ث", "x": 100, "y": 280, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ث" },
+{ "letter": "ح", "x": 100, "y": 350, "w": 100, "h": 100, "minStroke": 100, "letterAud":"ح" },
+{ "letter": "د", "x": 100, "y": 420, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"د"},
+{ "letter": "ذ", "x": 100, "y": 490, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"ذ"},
+{ "letter": "ر", "x": 100, "y": 560, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"ر"},
+{ "letter": "ز", "x": 100, "y": 630, "w": 100, "h": 100, "minStroke": 100 , "letterAud":"ز"}
+                  ] ,
+                  "frames": [
+                    {  "key":"board2", "x":750, "y":450, "w":1080, "h":900 }
+                  ]
+                }
+                ]  
+            },
+            {
+    "type": "QuranPhaser2",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "board": "/frame_board.png",
+    "titles": {
+        "id": "2",
+        "titlearabic": "اِقْرَأِ الحَرْفَ المُلَوَّنَ ثُمَّ اكْتُبْهُ",
+        "titleenglish": "Read the colored letter and rewrite it in the second line",
+        "audio": "pagetitleaudios/15/3.mp3",
+        "image": "/quranIcon.png",
+        "fontsize": "1.1vh"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "4/6",
+        "offsetY": "-34px"
+    },
+    "path": "/quran_audio/33/",
+    "questions": [
+        {
+            "quranaudio": "33-1",
+            "ayaverse": "سورة الحاقة آية 12",
+            "ayaverseEnglish": "Surah Al-Haqqah Verse 12",
+            "areas": [
+                {
+                    "letter": "...",
+                    "x": 465,
+                    "y": 623,
+                    "w": 200,
+                    "h": 260,
+                    "minStroke": 20,
+                    "alpha": 1,
+                    "fontsize": 100,
+                    "letterReveal": "ذُ",
+                    "minStrokeCount": 2,
+                    "color": "#DB2A50",
+                    "audio": "ذ"
+                }
+            ],
+            "frames": [
+                {
+                    "key": "1",
+                    "text": "﴾ لِنَجۡعَلَهَا لَكُمۡ تَذۡكِرَةٗ وَتَعِيَهَآ أُذُنٞ وَٰعِيَةٞ ١٢ ﴿",
+                    "x": 720,
+                    "y": 420,
+                    "w": 1430,
+                    "h": 250,
+                    "time": 9000,
+                    "fontsize": 100
+                }
+            ],
+            "verses": [
+                {
+                    "key": "1",
+                    "text": "﴾ لِنَجۡعَلَهَا لَكُمۡ تَذۡكِرَةٗ وَتَعِيَهَآ أُ  نٞ وَٰعِيَةٞ ١٢ ﴿",
+                    "x": 740,
+                    "y": 630,
+                    "w": 1380,
+                    "h": 250,
+                    "time": 14000,
+                    "fontsize": 100
+                }
+            ]
+        },
+        {
+            "quranaudio": "33-2",
+            "ayaverse": "سورة القارعة آية 10-11",
+            "ayaverseEnglish": "Surah Al-Qariah Verse 10-11",
+            "areas": [
+                {
+                    "letter": "...",
+                    "x": 1105,
+                    "y": 623,
+                    "w": 200,
+                    "h": 260,
+                    "minStroke": 20,
+                    "alpha": 1,
+                    "fontsize": 110,
+                    "letterReveal": "رَ",
+                    "minStrokeCount": 1,
+                    "color": "#DB2A50",
+                    "audio": "ر"
+                },
+                {
+                    "letter": "...",
+                    "x": 525,
+                    "y": 623,
+                    "w": 200,
+                    "h": 260,
+                    "minStroke": 20,
+                    "alpha": 1,
+                    "fontsize": 110,
+                    "letterReveal": "رٌ",
+                    "minStrokeCount": 1,
+                    "color": "#DB2A50",
+                    "audio": "ر"
+                }
+            ],
+            "frames": [
+                {
+                    "key": "1",
+                    "text": "﴾ وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ ١٠ نَارٌ حَامِيَةُۢ ١١ ﴿",
+                    "x": 740,
+                    "y": 420,
+                    "w": 1300,
+                    "h": 180,
+                    "time": 13000,
+                    "fontsize": 110
+                }
+            ],
+            "verses": [
+                {
+                    "key": "1",
+                    "text": "﴾ وَمَآ أَدۡ  ىٰكَ مَا هِيَهۡ ١٠ نَا   حَامِيَةُۢ ١١ ﴿",
+                    "x": 740,
+                    "y": 630,
+                    "w": 1380,
+                    "h": 250,
+                    "time": 14000,
+                    "fontsize": 110
+                }
+            ]
+        },
+        {
+            "quranaudio": "33-3",
+            "ayaverse": "سورة الذاريات آية 29",
+            "ayaverseEnglish": "Surah Adh-Dhariyat Verse 29",
+            "areas": [
+                {
+                    "letter": "...",
+                    "x": 265,
+                    "y": 625,
+                    "w": 200,
+                    "h": 260,
+                    "minStroke": 20,
+                    "alpha": 1,
+                    "letterReveal": "زٌ",
+                    "fontsize": 74,
+                    "minStrokeCount": 2,
+                    "color": "#DB2A50",
+                    "audio": "ز"
+                }
+            ],
+            "frames": [
+                {
+                    "key": "1",
+                    "text": "﴾ فَأَقۡبَلَتِ ٱمۡرَأَتُهُۥ فِي صَرَّةٖ فَصَكَّتۡ وَجۡهَهَا وَقَالَتۡ عَجُوزٌ عَقِيمٞ ٢٩ ﴿",
+                    "x": 740,
+                    "y": 440,
+                    "w": 1480,
+                    "h": 180,
+                    "time": 14000,
+                    "fontsize": 74
+                }
+            ],
+            "verses": [
+                {
+                    "key": "1",
+                    "text": "﴾ فَأَقۡبَلَتِ ٱمۡرَأَتُهُۥ فِي صَرَّةٖ فَصَكَّتۡ وَجۡهَهَا وَقَالَتۡ عَجُو   عَقِيمٞ ٢٩ ﴿",
+                    "x": 740,
+                    "y": 630,
+                    "w": 1380,
+                    "h": 250,
+                    "time": 14000,
+                    "fontsize": 74
+                }
+            ]
+        }
+    ]
+}
+        ]
+    }
+]
+
+    

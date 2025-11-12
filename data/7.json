@@ -1,0 +1,269 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "2",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الأَلِفْ",
+          "titleenglish": "Listen and underline the letter (ا)",
+          "audio": "pagetitleaudios/7/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/7/",
+        "letter":"ا",
+        "questions": [
+          {
+            "quranaudio": "7-1",
+            "ayaverse": "سورة المائدة آية 31",
+            "ayaverseEnglish": "Surah Al-Ma'idah Verse 31",
+            "areas": [
+              {
+                "letter": "ا",
+                "x": 284,
+                "y": 496,
+                "w": 70,
+                "h": 170,
+                "letterN":"ا",
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 80,
+                "color": "#DB2A50",
+                "audio": "aen"
+              },
+              {
+                "letter": "ا",
+                "x": 407,
+                "y": 496,
+                "w": 70,
+                "h": 170,
+                "letterN":"ا",
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 80,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 1329, "y": 454, "w": 20, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 536, "y": 664, "w": 20, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "قَالَ يَٰوَيۡلَتَىٰٓ أَعَجَزۡتُ أَنۡ أَكُونَ مِثۡلَ هَٰذَ ٱلۡغُرَ بِ فَأُوَٰرِيَ ﴿",
+                "x": 720,
+                "y": 450,
+                "w": 1400,
+                "h": 180,
+                "time": 14000,
+                "fontsize": 80
+              },
+              {
+                "key": "1",
+                "text": "﴾ سَوۡءَةَ أَخِيۖ فَأَصۡبَحَ مِنَ ٱلنَّٰدِمِينَ ٣١",
+                "x": 640,
+                "y": 650,
+                "w": 860,
+                "h": 180,
+                "time": 12000,
+                "fontsize": 80
+              }
+            ]
+          },
+          {
+            "quranaudio": "7-2",
+            "ayaverse": "سورة النصر آية 1-2",
+            "ayaverseEnglish": "Surah An-Nasr Verse 1-2",
+            "areas": [
+              {
+                "letter": "ا",
+                "x": 342,
+                "y": 658,
+                "w": 70,
+                "h": 170,
+                "letterN":"ا",
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 85,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 919, "y": 464, "w": 24, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 1063, "y": 647, "w": 20, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ ١ ﴿",
+                "x": 740,
+                "y": 450,
+                "w": 800,
+                "h": 180,
+                "time": 9000,
+                "fontsize": 85
+              },
+              {
+                "key": "1",
+                "text": "﴾وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِي دِينِ ٱللَّهِ أَفۡوَ جٗا ٢",
+                "x": 740,
+                "y": 610,
+                "w": 1200,
+                "h": 180,
+                "time": 13000,
+                "fontsize": 85
+              }
+            ]
+          },
+          {
+            "quranaudio": "7-3",
+            "ayaverse": "سورة يس آية 69",
+            "ayaverseEnglish": "Surah Ya-Sin Verse 69",
+            "areas": [
+              {
+                "letter": "ا",
+                "x": 638,
+                "y": 658,
+                "w": 70,
+                "h": 170,
+                "letterN":"ا",
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 85,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 1041, "y": 464, "w": 24, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"},
+              {  "letter": "بـ", "x": 580, "y": 464, "w": 20, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "وَمَا عَلَّمۡنَٰهُ ٱلشِّعۡرَ وَمَا يَنۢبَغِي لَهُۥٓۚ ﴿",
+                "x": 740,
+                "y": 450,
+                "w": 900,
+                "h": 180,
+                "time": 9000,
+                "fontsize": 85
+              },
+              {
+                "key": "1",
+                "text": "﴾إِنۡ هُوَ إِلَّا ذِكۡرٞ وَقُرۡءَ نٞ مُّبِينٞ ٦٩",
+                "x": 740,
+                "y": 610,
+                "w": 830,
+                "h": 180,
+                "time": 9000,
+                "fontsize": 85
+              }
+            ]
+          },
+          {
+            "quranaudio": "7-4",
+            "ayaverse": "سورة البروج آية 21-22",
+            "ayaverseEnglish": "Surah Al-Buruj Verse 21-22",
+            "areas": [
+              {
+                "letter": "ا",
+                "x": 390,
+                "y": 498,
+                "w": 70,
+                "h": 170,
+                "letterN":"ا",
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 85,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ ٢٠ بَلۡ هُوَ قُرۡءَ نٞ مَّجِيدٞ ٢١﴿",
+                "x": 740,
+                "y": 450,
+                "w": 1280,
+                "h": 180,
+                "time": 16000,
+                "fontsize": 85
+              },
+              {
+                "key": "1",
+                "text": "﴾فِي لَوۡحٖ مَّحۡفُوظِۭ ٢٢",
+                "x": 740,
+                "y": 610,
+                "w": 500,
+                "h": 180,
+                "time": 7000,
+                "fontsize": 85
+              }
+            ]
+          },
+          {
+            "quranaudio": "7-5",
+            "ayaverse": "سورة القارعة آية 4",
+            "ayaverseEnglish": "Surah Al-Qariah Verse 4",
+            "areas": [
+              {
+                "letter": "ا",
+                "x": 590,
+                "y": 498,
+                "w": 70,
+                "h": 170,
+                "letterN":"ا",
+                "minStroke": 20,
+                "alpha": 1,
+                "fontsize": 110,
+                "color": "#DB2A50",
+                "audio": "aen"
+              }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 926, "y": 481, "w": 24, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              {
+                "key": "1",
+                "text": "﴾يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَ شِ ٱلۡمَبۡثُوثِ ٤﴿",
+                "x": 740,
+                "y": 450,
+                "w": 1410,
+                "h": 220,
+                "time": 10000,
+                "fontsize": 110
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الظاء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "46_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "46_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "46_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الظَّاءْ",
+          "titleenglish": "Listen and underline the letter (ظ).",
+          "audio": "pagetitleaudios/47/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/47/",
+        "letter": "ظ",
+        "questions": [
+          {
+            "quranaudio": "47-1",
+            "ayaverse": "سورة الرحمن آية 35-36",
+            "ayaverseEnglish": "Surah Ar-Rahman Verse 35-36",
+            "areas": [
+              {
+                "letterN":"ظ", "letter": "ظٞ", "x": 874, "y": 530, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 80, "color": "#DB2A50", "audio": "thah" }
+            ],
+            "frames": [
+              { "key": "1", "text": "يُرۡسَلُ عَلَيۡكُمَا شُوَا    مِّن نَّارٖ وَنُحَاسٞ فَلَا تَنتَصِرَانِ ٣٥﴿", "x": 720, "y": 480, "w": 1300, "h": 130, "time": 16000, "fontsize": 80 },
+              { "key": "1", "text": "﴾فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ ٣٦", "x": 720, "y": 630, "w": 800, "h": 130, "time": 13000, "fontsize": 80 }
+            ]
+          },
+          {
+            "quranaudio": "47-2",
+            "ayaverse": "سورة التحريم آية 6",
+            "ayaverseEnglish": "Surah At-Tahrim Verse 6",
+            "areas": [
+              {
+                "letterN":"ظ", "letter": "ظٌ", "x": 320, "y": 677, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "thah" }
+            ],
+            "frames": [
+              { "key": "1", "text": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُواْ قُوٓاْ أَنفُسَكُمۡ وَأَهۡلِيكُمۡ نَارٗا﴿", "x": 740, "y": 480, "w": 1230, "h": 180, "time": 15000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَقُودُهَا ٱلنَّاسُ وَٱلۡحِجَارَةُ عَلَيۡهَا مَلَٰٓئِكَةٌ غِلَا   شِدَادٌ ٦", "x": 740, "y": 630, "w": 1440, "h": 180, "time": 25000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "47-3",
+            "ayaverse": "سورة البروج آية 19-22",
+            "ayaverseEnglish": "Surah Al-Buruj Verse 19-22",
+            "areas": [
+              {
+                "letterN":"ظ", "letter": "ظِۭ", "x": 380, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "thah" }
+            ],
+            "frames": [
+              { "key": "1", "text": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي تَكۡذِيبٖ ١٩ وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطُۢ ٢٠﴿", "x": 740, "y": 480, "w": 1480, "h": 140, "time": 17000, "fontsize": 80 },
+              { "key": "1", "text": "﴾بَلۡ هُوَ قُرۡءَانٞ مَّجِيدٞ ٢١ فِي لَوۡحٖ مَّحۡفُو   ٢٢", "x": 740, "y": 630, "w": 970, "h": 180, "time": 15000, "fontsize": 80 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

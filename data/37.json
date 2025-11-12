@@ -1,0 +1,131 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الشين",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "36_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "36_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "36_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الشِّينْ",
+          "titleenglish": "Listen and underline the letter (ش).",
+          "audio": "pagetitleaudios/37/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/37/",
+        "letter": "ش",
+        "questions": [
+          {
+            "quranaudio": "37-1",
+            "ayaverse": "سورة النمل آية 23",
+            "ayaverseEnglish": "Surah An-Naml Verse 23",
+            "areas": [
+              {
+                "letterN":"ش", "letter": "شٌ", "x": 760, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 95, "color": "#DB2A50", "audio": "sheen" }
+            ],
+            "otherAreas": [
+              { "letter": "شـ", "x": 169, "y": 470, "w": 60, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "إِنِّي وَجَدتُّ ٱمۡرَأَةٗ تَمۡلِكُهُمۡ وَأُوتِيَتۡ مِن كُلِّ شَيۡءٖ﴿", "x": 720, "y": 470, "w": 1380, "h": 170, "time": 14000, "fontsize": 95 },
+              { "key": "1", "text": "﴾وَلَهَا عَرۡ   عَظِيمٌ ٢٣", "x": 720, "y": 620, "w": 800, "h": 150, "time": 8000, "fontsize": 95 }
+            ]
+          },
+          {
+            "quranaudio": "37-2",
+            "ayaverse": "سورة الرحمن آية 54",
+            "ayaverseEnglish": "Surah Ar-Rahman Verse 54",
+            "areas": [
+              {
+                "letterN":"ش", "letter": "شٖ", "x": 1040, "y": 620, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 75, "color": "#DB2A50", "audio": "sheen" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ مُتَّكِـِٔينَ عَلَىٰ فُرُ     بَطَآئِنُهَا مِنۡ إِسۡتَبۡرَقٖۚ وَجَنَى ٱلۡجَنَّتَيۡنِ دَانٖ ٥٤ ﴿", "x": 740, "y": 570, "w": 1440, "h": 130, "time": 24000, "fontsize": 75 }
+            ]
+          },
+          {
+            "quranaudio": "37-3",
+            "ayaverse": "سورة التكوير آية 20",
+            "ayaverseEnglish": "Surah At-Takwir Verse 20",
+            "areas": [
+              {
+                "letterN":"ش", "letter": "شِ", "x": 565, "y": 620, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "sheen" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ ذِي قُوَّةٍ عِندَ ذِي ٱلۡعَرۡ    مَكِينٖ ٢٠ ﴿", "x": 740, "y": 570, "w": 1130, "h": 180, "time": 9000, "fontsize": 100 }
+            ]
+          },
+          {
+            "quranaudio": "37-4",
+            "ayaverse": "سورة التكوير آية 4-5",
+            "ayaverseEnglish": "Surah At-Takwir Verse 4-5",
+            "areas": [
+              {
+                "letterN":"ش", "letter": "شُ", "x": 450, "y": 620, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "sheen" }
+            ],
+            "otherAreas": [
+              { "letter": "ـشـ", "x": 1130, "y": 603, "w": 55, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "﴾ وَإِذَا ٱلۡعِشَارُ عُطِّلَتۡ ٤ وَإِذَا ٱلۡوُحُو    حُشِرَتۡ ٥ ﴿", "x": 740, "y": 570, "w": 1300, "h": 180, "time": 11000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "37-5",
+            "ayaverse": "سورة القارعة آية 4-5",
+            "ayaverseEnglish": "Surah Al-Qariah Verse 4-5",
+            "areas": [
+              {
+                "letterN":"ش", "letter": "شِ", "x": 520, "y": 490, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "sheen" },
+              {
+                "letterN":"ش", "letter": "شِ", "x": 340, "y": 670, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "sheen" }
+            ],
+            "frames": [
+              { "key": "1", "text": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَا    ٱلۡمَبۡثُوثِ ٤﴿", "x": 740, "y": 440, "w": 1250, "h": 180, "time": 10000, "fontsize": 100 },
+              { "key": "1", "text": "﴾وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُو    ٥", "x": 740, "y": 620, "w": 1200, "h": 180, "time": 10000, "fontsize": 100 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

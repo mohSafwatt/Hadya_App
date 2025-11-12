@@ -1,0 +1,147 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الراء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "108_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "108_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "108_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "U2QuranPhaser"
+    ],
+    "exersices": [
+      {
+        "type": "U2QuranPhaser",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "2",
+          "titlearabic": ".اِسْتَمِعْ، ثُمَّ ضَعْ خَطًّا تَحْتَ أَشْكَالِ حَرْفِ الرَّاءِ",
+          "titleenglish": "Listen and underline the shapes of the letter (ر)",
+          "audio": "pagetitleaudios/109/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/5",
+          "offsetY":"7%",
+          "scaleY":"0.9"
+        },
+        "path": "/quran_audio/7/",
+        "letter":"ا",
+        "questionIndex": 3,
+        "questions": [
+          {
+            "quranaudio": "a1-109",
+    "ayaverse": "سورة الرحمن آية 68 - 69",
+    "ayaverseEnglish": "Surah Ar-Rahman Verses 68-69",
+             "otherAreas": [ 
+              {  "letter": "بـ", "x": 425, "y": 468, "w": 40, "h": 200,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true },
+              {  "letter": "بـ", "x": 911, "y": 711, "w": 50, "h": 190,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true }
+            ],
+            "frames": [
+              {"key": "1-1-109", "x": 740,"y": 420,"w": 860,"h": 175,"time": 11000,"fontsize": 80 },
+              {"key": "1-2-109", "x": 710,"y": 650,"w": 860,"h": 200,"time": 13000,"fontsize": 80 }
+            ]
+          }, 
+          {
+            "quranaudio": "a2-109",
+    "ayaverse": "سورة الرعد آية 4",
+    "ayaverseEnglish": "Surah Ar-Ra'd Verse 4",
+             "otherAreas": [
+              {  "letter": "بـ", "x": 693, "y": 460, "w": 40, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true },
+              {  "letter": "بـ", "x": 1227, "y": 659, "w": 45, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true } 
+            ],
+            "frames": [
+              {"key": "2-1-109", "x": 740,"y": 420,"w": 1200,"h": 160,"time": 12000,"fontsize": 80 },
+              {"key": "2-2-109", "x": 740,"y": 620,"w": 1200,"h": 150,"time": 12000,"fontsize": 80 }
+            ]
+          }, 
+          {
+            "quranaudio": "a3-109",
+    "ayaverse": "سورة القمر آية 7",
+    "ayaverseEnglish": "Surah Al-Qamar Verse 7",
+             "otherAreas": [ 
+              {  "letter": "بـ", "x": 966, "y": 662, "w": 45, "h": 190,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true } 
+            ],
+            "frames": [
+              {"key": "3-1-109", "x": 750,"y": 420,"w": 1360,"h": 155,"time": 10000,"fontsize": 80 },
+              {"key": "3-2-109", "x": 750,"y": 620,"w": 1360,"h": 140,"time": 5000,"fontsize": 80 }
+            ]
+          },
+          {
+            "quranaudio": "a4-109",
+    "ayaverse": "سورة الأنعام آية 145",
+    "ayaverseEnglish": "Surah Al-An'am Verse 145",
+             "otherAreas": [
+              {  "letter": "بـ", "x": 934, "y": 507, "w": 50, "h": 200,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true } 
+            ],
+            "frames": [
+              {"key": "4-1-109", "x": 740,"y":430,"w": 1360,"h": 200,"time": 11000,"fontsize": 80 },
+              {"key": "4-2-109", "x": 740,"y":630,"w": 1360,"h": 172,"time": 4000,"fontsize": 80 }
+            ]
+          } 
+        ]
+      }       ,{
+                "type": "PhaserSequencePlayer",
+                "display": "column",
+        "titles": {
+          "id": "2",
+          "titlearabic": ".اِقْرَأْ أَسْمَاءَ الحُرُوفِ التَّالِيَةِ.",
+          "titleenglish": "Pronounce the following letter.",
+          "audio": "pagetitleaudios/87/2.mp3",
+          "delay": 2000,
+          "fontsize": "1.1vh"
+        },
+                "gametitles": [ 
+                ],
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "5/6",
+          "offsetY":"-2%",
+          "scaleY":"0.7"
+        },
+                "path": "/letters_page/",
+                "questions": [
+                    {
+                        "pieces": [
+                            {"x": 1304,"y":490,"w": 230,"key": "asH1109", "audio":"asH1A109","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 1080,"y":490,"w": 230,"key": "asH2109", "audio":"asH2A109","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 855,"y": 490,"w": 230,"key": "asH3109", "audio":"asH3A109","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 629,"y": 490,"w": 230,"key": "asH4109", "audio":"asH4A109","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 402,"y": 490,"w": 230,"key": "asH5109", "audio":"asH5A109","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 176,"y": 490,"w": 230,"key": "asH6109", "audio":"asH6A109","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"}
+                        ],
+                        "frames": [ 
+                        ]
+                    }
+                ]
+            }
+    ]
+  }
+]

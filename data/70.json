@@ -1,0 +1,316 @@
+[
+    {
+        "pageid": "22",
+        "backgroudimage": "/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب حرف الواو",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "70_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "70_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "70_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames": [
+          "letterspathPhaser",
+          "PhaserLetterBoard",
+          "BaloonPhaser"
+        ],
+        "autoreader": [ 
+          "pagetitleaudios/6/1.mp3",
+          "pagetitleaudios/6/2.mp3",
+          "/audio/borog.mp3",
+          "/audio/kodor.mp3",
+          "/audio/wogoh.mp3",
+          "pagetitleaudios/70/1.mp3"
+        ],
+        "exersices": [
+      {
+    "type": "letterspathPhaser",
+    "display": "column",
+    "canvasTrue": true,
+    "canvas": {
+        "targetImg": "/alphas/18.png"
+    },
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "1",
+        "titlearabic": "لَوِّنْ ثُمَّ ٱقْرَأْ وَٱكْتُبْ.",
+        "titleenglish": "Color, then read and write.",
+        "audio": "pagetitleaudios/6/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4"
+    },
+    "path": "/phasercoloring/",
+    "images": [
+        {
+            "key": "waw",
+            "x": 320,
+            "y": 559,
+            "w": 1280,
+            "h": 760
+        }
+    ],
+    "imagesMeta": [],
+    "images0Extras": [],
+    "images1Extras": [],
+    "images2Extras": [],
+    "images3Extras": [],
+    "images4Extras": [],
+    "images5Extras": [],
+    "images6Extras": [],
+    "images7Extras": [],
+    "images8Extras": [],
+    "images9Extras": [],
+    "images10Extras": [],
+    "images11Extras": [],
+    "images12Extras": [],
+    "images13Extras": [],
+    "images14Extras": [],
+    "images15Extras": [],
+    "images16Extras": [],
+    "images17Extras": [],
+    "images18Extras": [],
+    "areas": [
+    {
+        "x": 446,
+        "y": 231.5,
+        "w": 492.79999999999995,
+        "h": 667.7,
+        "tolerance": 53,
+        "points": [
+            {
+                "x": 861.8,
+                "y": 437.2
+            },
+            {
+                "x": 760.6,
+                "y": 518.6
+            },
+            {
+                "x": 681.4,
+                "y": 411.9
+            },
+            {
+                "x": 760.6,
+                "y": 264.5
+            },
+            {
+                "x": 897,
+                "y": 394.3
+            },
+            {
+                "x": 905.8,
+                "y": 503.2
+            },
+            {
+                "x": 836.5,
+                "y": 715.5
+            },
+            {
+                "x": 663.8,
+                "y": 864
+            },
+            {
+                "x": 479,
+                "y": 866.2
+            }
+        ]
+    }
+],
+    "audio": {
+        "key": "audio1",
+        "file": "و"
+    }
+},
+          {    
+            "type":"PhaserLetterBoard",
+            "display":"column",
+            "layout": {
+              "direction": "vertical", 
+              "fit": "full"            
+            },
+            "board":"/frame_board.png",
+            "titles":{ 
+              "id":"2",
+              "titlearabic": "ٱقْرَأْ وَٱكْتُبِ ٱلْحَرْفَ ٱلنَّاقِصَ.",
+              "titleenglish": "Read and write the missing letters.",
+              "audio":"pagetitleaudios/6/2.mp3",
+              "fontsize":"1.1vh"
+            },
+                 "size":{
+                    "gridcol":"span 2",
+                    "gridrow":"4/5",
+                    "offsetY":"0%"
+                },
+            "path":"/phaserwords/",
+            "questions":[
+    {
+        "areas": [
+            {
+                "letter": "و",
+                "x": 1040,
+                "y": 733,
+                "w": 300,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "و",
+                "requiredStrokes": 1,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "borogg_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "brog",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "borog",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "و",
+                "x": 1013,
+                "y": 752,
+                "w": 160,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "و",
+                "requiredStrokes": 1,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "qudor_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "kdor",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "kodor",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "و",
+                "x": 1126,
+                "y": 741,
+                "w": 200,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "و",
+                "requiredStrokes": 1,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "wogooh_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "wogooh",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "wogohh",
+                "path": "/"
+            }
+        ]
+    }
+]
+        },
+         {
+    "type": "BaloonPhaser",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "3",
+        "titlearabic": "مَيِّزْ حَرْفَ الْوَاو.",
+        "titleenglish": "Identify the letter (و)",
+        "audio": "pagetitleaudios/70/1.mp3",
+                    "offsetY":"-17%"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "5"
+    },
+    "Baloons": [
+{"x": 110, "y": 730, "key": "B1", "audio": "", "iscorrect": "false", "letter": "س", "textOffset": "+18"},
+{"x": 243, "y": 480, "key": "B2", "audio": "", "iscorrect": "true", "letter": "و"},
+{"x": 376, "y": 730, "key": "B3", "audio": "", "iscorrect": "false", "letter": "م"},
+{"x": 510, "y": 480, "key": "B4", "audio": "", "iscorrect": "false", "letter": "ن"},
+{"x": 643, "y": 730, "key": "B5", "audio": "", "iscorrect": "false", "letter": "ق"},
+{"x": 776, "y": 480, "key": "B6", "audio": "", "iscorrect": "false", "letter": "ي"},
+{"x": 910, "y": 730, "key": "B7", "audio": "", "iscorrect": "true", "letter": "و"},
+{"x": 1043, "y": 480, "key": "B8", "audio": "", "iscorrect": "false", "letter": "ر"},
+{"x": 1176, "y": 730, "key": "B9", "audio": "", "iscorrect": "false", "letter": "ل"},
+{"x": 1310, "y": 480, "key": "B10", "audio": "", "iscorrect": "true", "letter": "و", "textOffset": "-18"}
+]
+}
+
+        ]
+      }
+]

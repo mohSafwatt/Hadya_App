@@ -1,0 +1,356 @@
+[
+    {
+        "pageid": "16",
+        "backgroudimage": "/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب حرف القاف",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "56_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "56_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "56_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames": [
+          "letterspathPhaser",
+          "PhaserLetterBoard",
+          "BaloonPhaser"
+        ],
+        "autoreader": [ 
+          "pagetitleaudios/6/1.mp3",
+          "pagetitleaudios/6/2.mp3",
+          "/audio/bark.mp3",
+          "/audio/warak.mp3",
+          "/audio/sook.mp3",
+          "pagetitleaudios/56/1.mp3"
+        ],
+        "exersices": [
+        {
+    "type": "letterspathPhaser",
+    "display": "column",
+    "canvasTrue": true,
+    "canvas": {
+        "targetImg": "/alphas/18.png"
+    },
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "1",
+        "titlearabic": "لَوِّنْ ثُمَّ ٱقْرَأْ وَٱكْتُبْ.",
+        "titleenglish": "Color, then read and write.",
+        "audio": "pagetitleaudios/6/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4"
+    },
+    "path": "/phasercoloring/",
+    "images": [
+        {
+            "key": "kuf",
+            "x": 340,
+            "y": 550,
+            "w": 1280,
+            "h": 750
+        }
+    ],
+    "imagesMeta": [],
+    "images0Extras": [],
+    "images1Extras": [],
+    "images2Extras": [],
+    "images3Extras": [],
+    "images4Extras": [],
+    "images5Extras": [],
+    "images6Extras": [],
+    "images7Extras": [],
+    "images8Extras": [],
+    "images9Extras": [],
+    "images10Extras": [],
+    "images11Extras": [],
+    "images12Extras": [],
+    "images13Extras": [],
+    "images14Extras": [],
+    "images15Extras": [],
+    "images16Extras": [],
+    "images17Extras": [],
+    "images18Extras": [],
+    "areas": [
+    {
+        "x": 474.29999999999995,
+        "y": 385.09999999999997,
+        "w": 467,
+        "h": 473.6000000000001,
+        "tolerance": 50,
+        "points": [
+            {
+                "x": 867.3,
+                "y": 533.9
+            },
+            {
+                "x": 804.6,
+                "y": 584.5
+            },
+            {
+                "x": 745.2,
+                "y": 533.9
+            },
+            {
+                "x": 802.4,
+                "y": 415.09999999999997
+            },
+            {
+                "x": 894.8,
+                "y": 528.4
+            },
+            {
+                "x": 911.3,
+                "y": 676.9
+            },
+            {
+                "x": 726.5,
+                "y": 828.7
+            },
+            {
+                "x": 537.3,
+                "y": 778.1
+            },
+            {
+                "x": 504.29999999999995,
+                "y": 637.3
+            },
+            {
+                "x": 547.2,
+                "y": 483.29999999999995
+            }
+        ]
+    },
+    {
+        "x": 791.1,
+        "y": 208.2,
+        "w": 133.69999999999993,
+        "h": 122.69999999999999,
+        "tolerance": 50,
+        "dot": true,
+        "points": [
+            {
+                "x": 821.1,
+                "y": 238.2
+            },
+            {
+                "x": 894.8,
+                "y": 300.9
+            }
+        ]
+    },
+    {
+        "x": 643.7,
+        "y": 234.60000000000002,
+        "w": 152.39999999999998,
+        "h": 98.5,
+        "tolerance": 50,
+        "dot": true,
+        "points": [
+            {
+                "x": 673.7,
+                "y": 264.6
+            },
+            {
+                "x": 766.1,
+                "y": 303.1
+            }
+        ]
+    }
+],
+    "audio": {
+        "key": "audio1",
+        "file": "ق"
+    }
+},
+          {    
+            "type":"PhaserLetterBoard",
+            "display":"column",
+            "layout": {
+              "direction": "vertical", 
+              "fit": "full"            
+            },
+            "board":"/frame_board.png",
+            "titles":{ 
+              "id":"2",
+              "titlearabic": "ٱقْرَأْ وَٱكْتُبِ ٱلْحَرْفَ ٱلنَّاقِصَ.",
+              "titleenglish": "Read and write the missing letters.",
+              "audio":"pagetitleaudios/6/2.mp3",
+              "fontsize":"1.1vh"
+            },
+                 "size":{
+                    "gridcol":"span 2",
+                    "gridrow":"4/5",
+                    "offsetY":"0%"
+                },
+            "path":"/phaserwords/",
+            "questions":[
+    {
+        "areas": [
+            {
+                "letter": "ق",
+                "x": 975,
+                "y": 720,
+                "w": 300,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ق",
+                "requiredStrokes": 3,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "bark_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "bark",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "bark",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ق",
+                "x": 978,
+                "y": 720,
+                "w": 160,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ق",
+                "requiredStrokes": 3,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "warak_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "wark",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "warak",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ق",
+                "x": 940,
+                "y": 721,
+                "w": 200,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ق",
+                "requiredStrokes": 3,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "sook_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "sooq",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "sook",
+                "path": "/"
+            }
+        ]
+    }
+] 
+        },
+         {
+    "type": "BaloonPhaser",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "3",
+        "titlearabic": "مَيِّزْ حَرْفَ الْقَاف.",
+        "titleenglish": "Identify the letter (ق)",
+        "audio": "pagetitleaudios/56/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "5",
+                    "offsetY":"-17%"
+    },
+    "Baloons": [
+       {"x": 110,  "y": 730, "key": "B1",  "audio": "", "iscorrect": "true",  "letter": "ق", "textOffset": "+18" },
+       {"x": 243,  "y": 480, "key": "B2",  "audio": "", "iscorrect": "false", "letter": "ط" },
+       {"x": 376,  "y": 730, "key": "B3",  "audio": "", "iscorrect": "false", "letter": "ف" },
+       {"x": 510,  "y": 480, "key": "B4",  "audio": "", "iscorrect": "false", "letter": "س" },
+       {"x": 643,  "y": 730, "key": "B5",  "audio": "", "iscorrect": "true",  "letter": "ق" },
+       {"x": 776,  "y": 480, "key": "B6",  "audio": "", "iscorrect": "false", "letter": "ن" },
+       {"x": 910,  "y": 730, "key": "B7",  "audio": "", "iscorrect": "false", "letter": "ح" },
+       {"x": 1043, "y": 480, "key": "B8",  "audio": "", "iscorrect": "true",  "letter": "ق" },
+       {"x": 1176, "y": 730, "key": "B9",  "audio": "", "iscorrect": "false", "letter": "ب" },
+       {"x": 1310, "y": 480, "key": "B10", "audio": "", "iscorrect": "false", "letter": "ع", "textOffset": "-18" }
+    ]
+}
+
+        ]
+      }
+]

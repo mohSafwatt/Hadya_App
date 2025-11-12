@@ -1,0 +1,53 @@
+{
+  "thumbnailKey": "minigames/assets/thumbnails/planeThumb.png",
+  "gameType": "AirplaneGame",
+  "questions": [{
+    "targetLetter": "ي",
+    "letters": [
+      "ن",
+      "ب",
+      "ي",
+      "ت",
+      "ث"
+    ],
+    "backgroundKey": "bg",
+    "planeKey": "planeSprite",
+    "letterSpriteKey": "Blimp",
+    "lives": 3,
+    "explosionKey": "Explosion",
+    "BsketKey": "Basket",
+    "questionText": "ميز حرف الياء",
+    "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+    "bgKeys": [
+      "bgFar",
+      "bgMid",
+      "bgClose"
+    ],
+    "speed": 180,
+    "targetCount": 8
+  }],
+  "assets": {
+    "images": {
+      "Explosion": "minigames/assets/Explosion.png",
+      "Blimp": "minigames/assets/Blimp.png",
+      "bgFar": "minigames/assets/farParalax.png",
+      "bgMid": "minigames/assets/midParalax.png",
+      "bgClose": "minigames/assets/CloseParalax.png",
+      "Basket": "minigames/assets/Basket.png"
+    },
+    "json": {
+      "GameData": "data/minigamesdata/28_airplane.json"
+    },
+    "audio": {
+      "collect": "drop.mp3",
+      "hit": "drop.mp3"
+    },
+    "spritesheets": {
+      "planeSprite": {
+        "path": "minigames/assets/planespritesheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      }
+    }
+  }
+}

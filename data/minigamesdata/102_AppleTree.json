@@ -1,0 +1,83 @@
+{
+  "thumbnailKey": "minigames/assets/thumbnails/planeThumb.png",
+  "gameType": "AppleCatchScene",
+  "questions": [
+{
+        "multipleAnswers": true,
+        "targetLetter": ["ج", "جـ", "ـجـ", "ـج"],
+        "letters": ["ح", "ج", "ـجـ", "ن", "جـ", "خ", "د", "س"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Apple",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الجيم",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar"],
+        "speed": 280,
+        "targetCount": 4
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["ح", "حـ", "ـحـ", "ـح"],
+        "letters": ["ج", "حـ", "ـح", "ح", "د", "س", "ع", "غ"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Apple",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الحاء",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar"],
+        "speed": 280,
+        "targetCount": 4
+      },
+      {
+        "multipleAnswers": true,
+        "targetLetter": ["خ", "خـ", "ـخـ", "ـخ"],
+        "letters": ["ح", "خـ", "ـخـ", "خ", "ذ", "غ", "ق", "ف"],
+        "backgroundKey": "bg",
+        "planeKey": "planeSprite",
+        "letterSpriteKey": "Apple",
+        "lives": 3,
+        "explosionKey": "Explosion",
+        "BsketKey": "Basket",
+        "questionText": "ميز اشكال حرف الخاء",
+        "destroyedPlaneKey": "planeDestroyedSpriteSheet",
+        "bgKeys": ["bgFar"],
+        "speed": 280,
+        "targetCount": 4
+      }
+],
+  "assets": {
+    "images": {
+      "Explosion": "minigames/assets/Explosion.png",
+      "Blimp": "minigames/assets/Blimp.png",
+      "bgFar": "minigames/assets/farParalax.png",
+      "bgClose": "minigames/assets/garden.png",
+      "Apple": "minigames/assets/Apple.png",
+      "RottenApple": "minigames/assets/RottenApple.png",
+      "Tree": "minigames/assets/tree.png",
+      "appleBasket": "minigames/assets/appleBasket.png",
+      "appleBasketFilled": "minigames/assets/appleBasketFilled.png"
+    },
+    "audio": {
+      "collect": "drop.mp3",
+      "hit": "drop.mp3"
+    },
+    "spritesheets": {
+      "planeSprite": {
+        "path": "minigames/assets/planespritesheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      },
+      "planeDestroyedSpriteSheet": {
+        "path": "minigames/assets/planeDestroyedSpriteSheet.png",
+        "frameWidth": 400,
+        "frameHeight": 272
+      }
+    }
+  }
+}

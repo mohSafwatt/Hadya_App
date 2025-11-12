@@ -1,0 +1,118 @@
+[ 
+    {
+        "pageid":"14",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب الحروف(ط-ظ-ع-غ)",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "130_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "130_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "130_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames":["PhaserColoring"],
+        "autoreader": [
+          "pagetitleaudios/42/1.mp3",
+          "pagetitleaudios/32/2.mp3",
+          "pagetitleaudios/32/3.mp3",
+          "pagetitleaudios/32/4.mp3"
+        ],
+        "exersices":[
+           
+          {
+    "type": "PhaserChoose",
+    "display": "column",
+    "titles": {
+        "id": "1",
+        "titlearabic": ".اِخْتَرِ الأَجْزَاءَ الصَّحِيحَةَ الَّتِي يَتَكَوَّنُ مِنْهَا الحَرْفُ",
+        "titleenglish": "Choose the correct parts that make up the letter.",
+        "audio": "pagetitleaudios/133/1.mp3",
+        "fontsize": "1.1vh"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4",
+        "offsetY":"-9.9%",
+        "scaleY":"0.87"
+    },
+    "path": "/phaserchoose/pg42/",
+    "questions": [
+        {
+            "options": [
+                {"key": "opt1","x": 1150,"y": 300,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false, "frame":"opt1"},
+                {"key": "opt2","x": 300,"y": 300,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false, "frame":"opt2"},
+                {"key": "opt3","x": 1150,"y": 700,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": false, "frame":"opt3"},
+                {"key": "opt4","x": 300,"y": 700,"w": 300,"h": 300,"letter": "","color": "red","isCorrect": true, "frame":"opt4"}
+            ],
+            "images": [
+                {"key": "image1","x": 743,"y": 513,"w": 593,"h": 300,"letter": "","color": "red","frame": "1-1","scale": 0.46}
+            ]
+        } 
+    ]
+},
+            {
+             "type": "PhaserColoring",
+             "display": "column",
+             "layout": {
+               "direction": "vertical",
+               "fit": "full"
+             },
+             "titles": {
+               "id": "2",
+               "titlearabic": ".أَكْمِلْ كِتَابَةَ أَشْكَالِ الحُرُوفِ التَّالِيَةِ.",
+               "titleenglish": "Complete the missing shapes of each letter",
+               "audio": "pagetitleaudios/95/2.mp3"
+             },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "4/6",
+        "offsetY":"-22%",
+        "scaleY":"0.94"
+    },
+             "path": "/phasecoloring/",
+             "questions": [
+               {
+                 "areas": [ 
+                    {"letter": "ب","x": 316,"y": 270,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 270,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 937,"y": 270,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 316,"y": 430,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 430,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 937,"y": 430,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+ 
+                   {"letter": "ب","x": 630,"y": 595,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 937,"y": 595,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+
+                    {"letter": "ب","x": 316,"y": 760,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 630,"y": 760,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"},
+                   {"letter": "ب","x": 937,"y": 760,"w": 249,"h": 125,"minStroke": 100,"letterAud": "ب"} 
+                 ],
+                 "frames": [
+                   {"key": "ShapesWrite5","x": 730,"y": 510,"w": 1080,"h": 900}
+                 ]
+               }
+             ]
+           }
+        ]
+    }
+]
+
+    

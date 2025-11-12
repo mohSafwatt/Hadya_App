@@ -1,0 +1,26 @@
+{
+    "id": 5,
+    "title": "",
+    "special": true,
+    "backgroundImage": "Audio_Book/132/bg.png",
+
+    "areas": [
+      { "id": "132-1",  "letter": "ا", "image": "u2/tiles/tile1.png",  "audio": "letters_page/ا.mp3", "top": "3.0%", "left": "93%",  "width": "5%" },
+      { "id": "132-2",  "letter": "ب", "image": "u2/tiles/tile2.png",  "audio": "letters_page/ب.mp3", "top": "3.2%", "left": "86.5%", "width": "5%" },
+      { "id": "132-3",  "letter": "ت", "image": "u2/tiles/tile3.png",  "audio": "letters_page/ت.mp3", "top": "3.5%", "left": "80%",  "width": "5%" },
+      { "id": "132-4",  "letter": "ث", "image": "u2/tiles/tile4.png",  "audio": "letters_page/ث.mp3", "top": "3.9%", "left": "73.5%", "width": "5%" },
+      { "id": "132-5",  "letter": "ج", "image": "u2/tiles/tile5.png",  "audio": "letters_page/ج.mp3", "top": "4.3%", "left": "67%",  "width": "5%" },
+      { "id": "132-6",  "letter": "ح", "image": "u2/tiles/tile6.png",  "audio": "letters_page/ح.mp3", "top": "4.6%", "left": "60.5%", "width": "5%" },
+      { "id": "132-7",  "letter": "خ", "image": "u2/tiles/tile7.png",  "audio": "letters_page/خ.mp3", "top": "4.9%", "left": "54%",  "width": "5%" },
+      { "id": "132-8",  "letter": "د", "image": "u2/tiles/tile8.png",  "audio": "letters_page/د.mp3", "top": "5.0%", "left": "47.5%", "width": "5%" },
+      { "id": "132-9",  "letter": "ذ", "image": "u2/tiles/tile9.png",  "audio": "letters_page/ذ.mp3", "top": "4.9%", "left": "41%",  "width": "5%" },
+      { "id": "132-10", "letter": "ر", "image": "u2/tiles/tile10.png", "audio": "letters_page/ر.mp3", "top": "4.6%", "left": "34.5%", "width": "5%" },
+      { "id": "132-11", "letter": "ز", "image": "u2/tiles/tile11.png", "audio": "letters_page/ز.mp3", "top": "4.3%", "left": "28%",  "width": "5%" },
+      { "id": "132-12", "letter": "س", "image": "u2/tiles/tile12.png", "audio": "letters_page/س.mp3", "top": "3.9%", "left": "21.5%", "width": "5%" },
+      { "id": "132-13", "letter": "ش", "image": "u2/tiles/tile13.png", "audio": "letters_page/ش.mp3", "top": "3.5%", "left": "15%",  "width": "5%" },
+      { "id": "132-14", "letter": "ص", "image": "u2/tiles/tile14.png", "audio": "letters_page/ص.mp3", "top": "3.2%", "left": "8.5%",  "width": "5%" },
+      { "id": "132-15", "letter": "ض", "image": "u2/tiles/tile15.png", "audio": "letters_page/ض.mp3", "top": "3.0%", "left": "2%",   "width": "5%" }, 
+      { "id": "132-16", "letter": "1", "image": "Audio_Book/132/T01.png", "audio": "pagetitleaudios/94/1.mp3", "top": "10%", "left": "6%", "width": "85%" }, 
+      { "id": "132-17", "letter": "1", "image": "Audio_Book/132/T02.png", "audio": "pagetitleaudios/94/2.mp3", "top": "64%", "left": "9%", "width": "80%" }
+    ]
+}

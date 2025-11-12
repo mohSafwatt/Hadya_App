@@ -1,0 +1,292 @@
+[ 
+    {
+        "pageid":"6",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب حرف الباء",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "6_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "6_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "6_AppleTree.json"
+        }
+      ]
+    },
+        "backgroudimage":"/background1.jpg",
+        "exercisenames":["letterspathPhaser","PhaserLetterBoard","BaloonPhaser"],
+        "autoreader":[ 
+          "pagetitleaudios/6/1.mp3",
+          "pagetitleaudios/6/2.mp3", 
+          "/audio/quran.mp3", 
+          "/audio/ghurab.mp3", 
+          "/audio/farash.mp3", 
+          "pagetitleaudios/6/5.mp3"
+        ],
+        "exersices":[ 
+              {
+    "type": "letterspathPhaser",
+    "display": "column",
+    "canvasTrue": true,
+    "canvas": {
+        "targetImg": "/alphas/18.png"
+    },
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "1",
+        "titlearabic": "لَوِّنْ ثُمَّ ٱقْرَأْ وَٱكْتُبْ.",
+        "titleenglish": "Color, then read and write.",
+        "audio": "pagetitleaudios/6/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4"
+    },
+    "path": "/phasercoloring/",
+    "images": [
+        {
+            "key": "alif",
+            "x": 220,
+            "y": 550,
+            "w": 1280,
+            "h": 600
+        }
+    ],
+    "imagesMeta": [],
+    "images0Extras": [],
+    "images1Extras": [],
+    "images2Extras": [],
+    "images3Extras": [],
+    "images4Extras": [],
+    "images5Extras": [],
+    "images6Extras": [],
+    "images7Extras": [],
+    "images8Extras": [],
+    "images9Extras": [],
+    "images10Extras": [],
+    "images11Extras": [],
+    "images12Extras": [],
+    "images13Extras": [],
+    "images14Extras": [],
+    "images15Extras": [],
+    "images16Extras": [],
+    "images17Extras": [],
+    "images18Extras": [],
+    "areas": [
+    {
+        "x": 666,
+        "y": 174,
+        "w": 116,
+        "h": 754,
+        "tolerance": 40,
+        "points": [
+            {
+                "x": 706,
+                "y": 214
+            },
+            {
+                "x": 731,
+                "y": 556
+            },
+            {
+                "x": 742,
+                "y": 720
+            },
+            {
+                "x": 722,
+                "y": 888
+            }
+        ]
+    }
+],
+    "audio": {
+        "key": "audio1",
+        "file": "ا"
+    }
+},
+              {    
+                "type":"PhaserLetterBoard",
+                "display":"column",
+                "layout": {
+                  "direction": "vertical", 
+                  "fit": "full"            
+                },
+                "board":"/frame_board.png",
+                "titles":{ 
+                  "id":"2",
+                  "titlearabic": "ٱقْرَأْ وَٱكْتُبِ ٱلْحَرْفَ ٱلنَّاقِصَ.",
+                  "titleenglish": "Read and write the missing letters.",
+                  "audio":"pagetitleaudios/6/2.mp3",
+                  "fontsize":"1.1vh"
+                },
+                 "size":{
+                    "gridcol":"span 2",
+                    "gridrow":"4/5",
+                    "offsetY":"0px"
+                },
+                "path":"/phaserwords/",
+                "questions":[
+    {
+        "areas": [
+            {
+                "letter": "ا",
+                "x": 980,
+                "y": 720,
+                "w": 200,
+                "h": 200,
+                "minStroke": 50,
+                "fontsize": 200,
+                "letterAud": "ا",
+                "color": "#108673",
+                "yOffset": false
+            }
+        ],
+        "frames": [
+            {
+                "key": "quran_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "quran",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "quran",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ا",
+                "x": 1050,
+                "y": 710,
+                "w": 160,
+                "h": 200,
+                "minStroke": 50,
+                "fontsize": 200,
+                "letterAud": "ا",
+                "color": "#108673",
+                "yOffset": false
+            }
+        ],
+        "frames": [
+            {
+                "key": "farash_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "frashat",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "farash",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ا",
+                "x": 1030,
+                "y": 710,
+                "w": 300,
+                "h": 200,
+                "minStroke": 50,
+                "fontsize": 200,
+                "letterAud": "ا",
+                "color": "#108673",
+                "yOffset": false
+            }
+        ],
+        "frames": [
+            {
+                "key": "ghurab_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "khorab",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "ghurab",
+                "path": "/"
+            }
+        ]
+    }
+]
+
+            },
+            {    
+                "type":"BaloonPhaser",
+                "display":"column",
+                "layout": {
+                  "direction": "vertical", 
+                  "fit": "full"            
+                },
+                "titles":{ 
+                  "id":"3",
+                  "titlearabic": "مَيِّزْ حَرْفَ الأَلِفِ.",
+                  "titleenglish": "Identify the letter (ا)",
+                  "audio":"pagetitleaudios/6/3.mp3"
+                },
+                 "size":{
+                    "gridcol":"span 2",
+                    "gridrow":"5",
+                    "offsetY":"-17%"
+                },
+                "Baloons":[ 
+                          {"x": 110, "y": 730, "key": "B1", "audio": "", "iscorrect": "true", "letter": "ا", "textOffset": "+18"},
+{"x": 243, "y": 480, "key": "B2", "audio": "", "iscorrect": "false", "letter": "ط"},
+{"x": 376, "y": 730, "key": "B3", "audio": "", "iscorrect": "true", "letter": "ا"},
+{"x": 510, "y": 480, "key": "B4", "audio": "", "iscorrect": "false", "letter": "ل"},
+{"x": 643, "y": 730, "key": "B5", "audio": "", "iscorrect": "false", "letter": "أ"},
+{"x": 776, "y": 480, "key": "B6", "audio": "", "iscorrect": "true", "letter": "ا"},
+{"x": 910, "y": 730, "key": "B7", "audio": "", "iscorrect": "false", "letter": "ل"},
+{"x": 1043, "y": 480, "key": "B8", "audio": "", "iscorrect": "true", "letter": "ا"},
+{"x": 1176, "y": 730, "key": "B9", "audio": "", "iscorrect": "false", "letter": "ك"},
+{"x": 1310, "y": 480, "key": "B10", "audio": "", "iscorrect": "false", "letter": "إ", "textOffset": "-18"}
+                ]
+
+            } 
+        ]
+    }
+]
+
+    

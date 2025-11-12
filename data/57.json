@@ -1,0 +1,145 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف القاف",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "56_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "56_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "56_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ القَافْ",
+          "titleenglish": "Listen and underline the letter (ق).",
+          "audio": "pagetitleaudios/57/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/57/",
+        "letter": "ق",
+        "questions": [
+          {
+            "quranaudio": "57-1",
+            "ayaverse": "سورة البقرة آية 19",
+            "ayaverseEnglish": "Surah Al-Baqarah Verse 19",
+            "areas": [
+              {
+                "letterN":"ق", "letter": "قٞ", "x": 420, "y": 510, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 75, "color": "#DB2A50", "audio": "qaf" }
+            ],
+            "otherAreas": [
+              { "letter": "ـبـ", "x": 920, "y": 667, "w": 50, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "أَوۡ كَصَيِّبٖ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٞ وَرَعۡدٞ وَبَرۡ    يَجۡعَلُونَ أَصَٰبِعَهُمۡ﴿", "x": 740, "y": 460, "w": 1460, "h": 150, "time": 19000, "fontsize": 75 },
+              { "key": "1", "text": "﴾فِيٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلۡمَوۡتِۚ وَٱللَّهُ مُحِيطُۢ بِٱلۡكَٰفِرِينَ ١٩", "x": 720, "y": 640, "w": 1460, "h": 150, "time": 20000, "fontsize": 75 }
+            ]
+          },
+          {
+            "quranaudio": "57-2",
+            "ayaverse": "سورة القيامة آية 27-30",
+            "ayaverseEnglish": "Surah Al-Qiyamah Verse 27-30",
+            "areas": [
+              {
+                "letterN":"ق", "letter": "قٖ", "x": 870, "y": 510, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" },
+              {
+                "letterN":"ق", "letter": "قُ", "x": 370, "y": 510, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" },
+              {
+                "letterN":"ق", "letter": "قُ", "x": 1080, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" },
+              {
+                "letterN":"ق", "letter": "قِ", "x": 880, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" },
+              {
+                "letterN":"ق", "letter": "قُ", "x": 190, "y": 640, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" }
+            ],
+            "frames": [
+              { "key": "1", "text": "وَقِيلَ مَنۡۜ رَا    ٢٧ وَظَنَّ أَنَّهُ ٱلۡفِرَا    ٢٨﴿", "x": 740, "y": 460, "w": 1000, "h": 180, "time": 14000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَٱلۡتَفَّتِ ٱلسَّا    بِٱلسَّا    ٢٩ إِلَىٰ رَبِّكَ يَوۡمَئِذٍ ٱلۡمَسَا    ٣٠", "x": 740, "y": 600, "w": 1440, "h": 180, "time": 14000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "57-3",
+            "ayaverse": "سورة طه آية 121",
+            "ayaverseEnglish": "Surah Taha Verse 121",
+            "areas": [
+              {
+                "letterN":"ق", "letter": "قِ", "x": 547, "y": 650, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 100, "color": "#DB2A50", "audio": "qaf" }
+            ],
+            "otherAreas": [
+              { "letter": "ـبـ", "x": 160, "y": 467, "w": 50, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "فَأَكَلَا مِنۡهَا فَبَدَتۡ لَهُمَا سَوۡءَٰتُهُمَا وَطَفِقَا﴿", "x": 740, "y": 430, "w": 1240, "h": 180, "time": 10000, "fontsize": 100 },
+              { "key": "1", "text": "﴾يَخۡصِفَانِ عَلَيۡهِمَا مِن وَرَ    ٱلۡجَنَّةِۚ ٢٢", "x": 740, "y": 600, "w": 1100, "h": 180, "time": 9000, "fontsize": 100 }
+            ]
+          },
+          {
+            "quranaudio": "57-4",
+            "ayaverse": "سورة الإنسان آية 21",
+            "ayaverseEnglish": "Surah Al-Insan Verse 21",
+            "areas": [
+              {
+                "letterN":"ق", "letter": "قٞۖ", "x": 450, "y": 510, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" }
+            ],
+            "otherAreas": [
+              { "letter": "ـبـ", "x": 920, "y": 647, "w": 50, "h": 180, "message": "!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95, "color": "#DB2A50" }
+            ],
+            "frames": [
+              { "key": "1", "text": "عَٰلِيَهُمۡ ثِيَابُ سُندُسٍ خُضۡرٞ وَإِسۡتَبۡرَ   وَحُلُّوٓاْ أَسَاوِرَ﴿", "x": 740, "y": 460, "w": 1280, "h": 180, "time": 17000, "fontsize": 85 },
+              { "key": "1", "text": "﴾مِن فِضَّةٖ وَسَقَىٰهُمۡ رَبُّهُمۡ شَرَابٗا طَهُورًا ٢١", "x": 740, "y": 600, "w": 1010, "h": 180, "time": 13000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "57-5",
+            "ayaverse": "سورة الطارق آية 1-3",
+            "ayaverseEnglish": "Surah At-Tariq Verse 1-3",
+            "areas": [
+              {
+                "letterN":"ق", "letter": "قِ", "x": 900, "y": 510, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" },
+              {
+                "letterN":"ق", "letter": "قُ", "x": 250, "y": 510, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "qaf" }
+            ],
+            "frames": [
+              { "key": "1", "text": "وَٱلسَّمَآءِ وَٱلطَّارِ   ١ وَمَآ أَدۡرَىٰكَ مَا ٱلطَّارِ   ٢﴿", "x": 740, "y": 460, "w": 1200, "h": 140, "time": 13000, "fontsize": 85 },
+              { "key": "1", "text": "﴾ٱلنَّجۡمُ ٱلثَّاقِبُ ٣", "x": 740, "y": 600, "w": 460, "h": 140, "time": 5000, "fontsize": 85 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوِحْدَةُ الأُولَى"
+    },
+    "exercisenames": [
+      "U2QuranPhaser"
+    ],
+    "exersices": [
+      {
+        "type": "U2QuranPhaser",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "2",
+          "titlearabic": ".اِسْتَمِعْ، ثُمَّ ضَعْ خَطًّا تَحْتَ أَشْكَالِ حَرْفِ الثَّاءِ",
+          "titleenglish": "Listen and underline the shapes of the letter (ث).",
+          "audio": "pagetitleaudios/93/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/5",
+          "offsetY":"7%",
+          "scaleY":"0.9"
+        },
+        "path": "/quran_audio/7/",
+        "letter":"ا",
+        "questionIndex": 3,
+        "questions": [
+          {
+            "quranaudio": "a1-93",
+    "ayaverse": "سورة يس آية 51",
+    "ayaverseEnglish": "Surah Ya-Sin Verse 51", 
+             "otherAreas": [ 
+              {  "letter": "بـ", "x": 64, "y": 452, "w": 100, "h": 210,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true }
+            ],
+            "frames": [
+              {"key": "1-1-93", "x": 740,"y": 420,"w": 860,"h": 195,"time": 6000,"fontsize": 80 },
+              {"key": "1-2-93", "x": 680,"y": 650,"w": 860,"h": 175,"time": 6000,"fontsize": 80 }
+            ]
+          }, 
+          {
+            "quranaudio": "a2-93",
+    "ayaverse": "سورة الحج آية 19",
+    "ayaverseEnglish": "Surah Al-Hajj Verse 19",
+             "otherAreas": [
+              {  "letter": "بـ", "x": 494, "y": 555, "w": 50, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true } 
+            ],
+            "frames": [
+              {"key": "2-1-93", "x": 720,"y": 520,"w": 1200,"h": 160,"time": 11000,"fontsize": 80 } 
+            ]
+          }, 
+          {
+            "quranaudio": "a3-93",
+    "ayaverse": "سورة الليل آية 1 - 3",
+    "ayaverseEnglish": "Surah Al-Layl Verses 1-3",
+             "otherAreas": [ 
+              {  "letter": "بـ", "x": 500, "y": 696, "w": 40, "h": 190,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true }
+            ],
+            "frames": [
+              {"key": "3-1-93", "x": 730,"y": 450,"w": 1360,"h": 170,"time": 10000,"fontsize": 80 },
+              {"key": "3-2-93", "x": 720,"y": 650,"w": 1360,"h": 170,"time": 8000,"fontsize": 80 }
+            ]
+          },
+          {
+            "quranaudio": "a4-93",
+    "ayaverse": "سورة البروج آية 17",
+    "ayaverseEnglish": "Surah Al-Buruj Verse 17",
+             "otherAreas": [
+              {  "letter": "بـ", "x": 641, "y": 582, "w": 98, "h": 190,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50", "isTarget": true } 
+            ],
+            "frames": [
+              {"key": "4-1-93", "x": 720,"y":550,"w": 1360,"h": 190,"time": 6000,"fontsize": 80 } 
+            ]
+          } 
+        ]
+      }
+      ,{
+                "type": "PhaserSequencePlayer",
+                "display": "column",
+        "titles": {
+          "id": "2",
+          "titlearabic": ".اِقْرَأْ أَسْمَاءَ الحُرُوفِ التَّالِيَةِ.",
+          "titleenglish": "Pronounce the following letter.",
+          "audio": "pagetitleaudios/87/2.mp3",
+          "delay": 2000,
+          "fontsize": "1.1vh"
+        },
+                "gametitles": [ 
+                ],
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "5/6",
+          "offsetY":"-2%",
+          "scaleY":"0.7"
+        },
+                "path": "/letters_page/",
+                "questions": [
+                    {
+                        "pieces": [
+                            {"x": 1304,"y":490,"w": 230,"key": "asH193", "audio":"asH1A93","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 1080,"y":490,"w": 230,"key": "asH293", "audio":"asH2A93","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 855,"y": 490,"w": 230,"key": "asH393", "audio":"asH3A93","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 629,"y": 490,"w": 230,"key": "asH493", "audio":"asH4A93","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 402,"y": 490,"w": 230,"key": "asH593", "audio":"asH5A93","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"},
+                            {"x": 176,"y": 490,"w": 230,"key": "asH693", "audio":"asH6A93","correctDropZone": "dz4","scale": "4","color": "#D72343","float": false,"fontSize": "200px","fontFamily": "quranic"}
+                        ],
+                        "frames": [ 
+                        ]
+                    }
+                ]
+            }
+    ]
+  }
+]

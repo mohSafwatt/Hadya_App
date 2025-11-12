@@ -1,0 +1,591 @@
+[
+    {
+        "pageid": "6",
+        "backgroudimage": "/background3.jpg",
+        "unitTitles": {
+            "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+            "unitname": "أَسْمَاءُ الحُرُوفِ",
+            "unitnumber": "الوَحْدَةُ الأُولَى"
+        },
+        "exercisenames": [
+            "PhaserSequencePlayer"
+        ],
+        "autoreader": [],
+        "exersices": [
+            {
+                "type": "PhaserSequencePlayer",
+                "display": "column",
+                "gametitles": [
+                    {
+                        "x": 710,
+                        "y": 200,
+                        "w": 1000,
+                        "image": "cloudTitle",
+                        "text": "",
+                        "audio": "cloudTitle"
+                    }
+                ],
+                "size": {},
+                "path": "/letters_page/",
+                "questions": [
+                    {
+                        "pieces": [
+                            {
+                                "x": 957,
+                                "y": 410,
+                                "w": 500,
+                                "key": "ب",
+                                "audio": "ب",
+                                "text": "ب",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#D72343",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic"
+                            },
+                            {
+                                "x": 719,
+                                "y": 410,
+                                "w": 500,
+                                "key": "ت",
+                                "audio": "ت",
+                                "text": "ت",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#D72343",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic"
+                            },
+                            {
+                                "x": 481,
+                                "y": 410,
+                                "w": 500,
+                                "key": "ث",
+                                "audio": "ث",
+                                "text": "ث",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#D72343",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic"
+                            },
+                            {
+                                "x": 244,
+                                "y": 410,
+                                "w": 500,
+                                "key": "ن",
+                                "audio": "ن",
+                                "text": "ن",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#D72343",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic"
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe1",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 1022,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ج",
+                                "audio": "ج",
+                                "text": "ج",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#7FBC43",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 822,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ح",
+                                "audio": "ح",
+                                "text": "ح",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#7FBC43",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 621,
+                                "y": 367,
+                                "w": 500,
+                                "key": "خ",
+                                "audio": "خ",
+                                "text": "خ",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#7FBC43",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 421,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ع",
+                                "audio": "ع",
+                                "text": "ع",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#7FBC43",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 220,
+                                "y": 367,
+                                "w": 500,
+                                "key": "غ",
+                                "audio": "غ",
+                                "text": "غ",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#7FBC43",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe2",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 957,
+                                "y": 411,
+                                "w": 500,
+                                "key": "د",
+                                "audio": "د",
+                                "text": "د",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#EA9766",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic"
+                            },
+                            {
+                                "x": 719,
+                                "y": 411,
+                                "w": 500,
+                                "key": "ذ",
+                                "audio": "ذ",
+                                "text": "ذ",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#EA9766",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic"
+                            },
+                            {
+                                "x": 481,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ر",
+                                "audio": "ر",
+                                "text": "ر",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#EA9766",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 244,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ز",
+                                "audio": "ز",
+                                "text": "ز",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#EA9766",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe3",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 957,
+                                "y": 378,
+                                "w": 500,
+                                "key": "س",
+                                "audio": "س",
+                                "text": "س",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#0E9792",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 719,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ش",
+                                "audio": "ش",
+                                "text": "ش",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#0E9792",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 481,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ص",
+                                "audio": "ص",
+                                "text": "ص",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#0E9792",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 244,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ض",
+                                "audio": "ض",
+                                "text": "ض",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#0E9792",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe4",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 719,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ط",
+                                "audio": "ط",
+                                "text": "ط",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#DC4E76",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 481,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ظ",
+                                "audio": "ظ",
+                                "text": "ظ",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#DC4E76",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe5",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 719,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ف",
+                                "audio": "ف",
+                                "text": "ف",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#0F934B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 481,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ق",
+                                "audio": "ق",
+                                "text": "ق",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#0F934B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe6",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 957,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ا",
+                                "audio": "ا",
+                                "text": "ا",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#756EA5",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 719,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ك",
+                                "audio": "ك",
+                                "text": "ك",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#756EA5",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 481,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ل",
+                                "audio": "ل",
+                                "text": "ل",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#756EA5",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            },
+                            {
+                                "x": 244,
+                                "y": 378,
+                                "w": 500,
+                                "key": "ء",
+                                "audio": "ء",
+                                "text": "ء",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#756EA5",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 36
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe7",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    },
+                    {
+                        "pieces": [
+                            {
+                                "x": 1022,
+                                "y": 367,
+                                "w": 500,
+                                "key": "م",
+                                "audio": "م",
+                                "text": "م",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#B77D4B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 822,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ه",
+                                "audio": "ه",
+                                "text": "هـ",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#B77D4B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 621,
+                                "y": 367,
+                                "w": 500,
+                                "key": "و",
+                                "audio": "و",
+                                "text": "و",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#B77D4B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 421,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ي",
+                                "audio": "ي",
+                                "text": "ى",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#B77D4B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            },
+                            {
+                                "x": 220,
+                                "y": 367,
+                                "w": 500,
+                                "key": "ي",
+                                "audio": "ي",
+                                "text": "يي",
+                                "correctDropZone": "dz4",
+                                "scale": "4",
+                                "color": "#B77D4B",
+                                "float": false,
+                                "fontSize": "200px",
+                                "fontFamily": "quranic",
+                                "paddingB": 46
+                            }
+                        ],
+                        "frames": [
+                            {
+                                "x": 710,
+                                "y": 516,
+                                "w": 1200,
+                                "key": "lpframe8",
+                                "correctDropZone": "dz4",
+                                "scale": "4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

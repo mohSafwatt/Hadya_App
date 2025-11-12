@@ -1,0 +1,421 @@
+[
+  {
+    "pageid": "6",
+    "backgroudimage": "/background3.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "exercisenames": [
+      "PhaserMahaza"
+    ],
+    "autoreader": [],
+    "exersices": [
+      {
+        "type": "PhaserMahaza",
+        "display": "column",
+        "gametitles": [
+          {
+            "x": 740,
+            "y": 80,
+            "w": 1000,
+            "image": "title",
+            "text": "",
+            "audio": "title"
+          }
+        ],
+        "size": {},
+        "path": "/Mahaza/",
+        "questions": [
+          [
+    {
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذَا غَيْثٞ","audio": "mahazaghayth","text": "هَذَا غَيْثٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "khayth","correctDropZone": "dz4","scale": "4","path": "/khayth.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَنْ هَذِهِ؟","audio": "man hazehe","text": "مَنْ هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذِهِ أُنْثَىٰ","audio": "mahazaontha","text": "هَذِهِ أُنْثَىٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "ontha","correctDropZone": "dz4","scale": "4","path": "/ontha.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذَا مَوْجٞ","audio": "mahazamog","text": "هَذَا مَوْجٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "mog","correctDropZone": "dz4","scale": "4","path": "/wazkg.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَنْ هَذِهِ؟","audio": "man hazehe","text": "مَنْ هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذِهِ عَجُوزٞ","audio": "mahazaagoz","text": "هَذِهِ عَجُوزٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "old_","correctDropZone": "dz4","scale": "4","path": "/old_.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذَا ثَلْجٞ","audio": "mahazathalg","text": "هَذَا ثَلْجٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "thalg","correctDropZone": "dz4","scale": "4","path": "/thalg.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذَا نَحْلٞ","audio": "mahazanahl","text": "هَذَا نَحْلٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "nahl","correctDropZone": "dz4","scale": "4","path": "/nahl.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذَا حِمَارٞ","audio": "mahazahomar","text": "هَذَا حِمَارٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "donkey","correctDropZone": "dz4","scale": "4","path": "/donkey.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذَا مِفْتَاحٞ","audio": "mahazameftah","text": "هَذَا مِفْتَاحٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "key","correctDropZone": "dz4","scale": "4","path": "/Key.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذَا مِلْحٞ","audio": "mahazamalh","text": "هَذَا مِلْحٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "afeda","correctDropZone": "dz4","scale": "4","path": "/feda.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَنْ هَذَا؟","audio": "man haza","text": "مَنْ هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذَا أَخٞ","audio": "mahazaakh","text": "هَذَا أَخٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "akh","correctDropZone": "dz4","scale": "4","path": "/Akh.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذَا خِنْزِيرٞ","audio": "mahazakhanzer","text": "هَذَا خِنْزِيرٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "pig","correctDropZone": "dz4","scale": "4","path": "/pig.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذِهِ؟","audio": "ma hazehe","text": "مَا هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذِهِ صَخْرَةٞ","audio": "mahazasakhara","text": "هَذِهِ صَخْرَةٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "sakhra","correctDropZone": "dz4","scale": "4","path": "/sakhra.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذَا شَيْحٞ","audio": "mahazashaykh","text": "هَذَا شَيْحٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "shikh","correctDropZone": "dz4","scale": "4","path": "/Shikh.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذَا دَلْوٞ","audio": "mahazadalw","text": "هَذَا دَلْوٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "daloe","correctDropZone": "dz4","scale": "4","path": "/daloe.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذِهِ؟","audio": "ma hazehe","text": "مَا هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذِهِ قِرَدَةٞ","audio": "mahazaqerada","text": "هَذِهِ قِرَدَةٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "monkey","correctDropZone": "dz4","scale": "4","path": "/Monkey.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَا هَذِهِ؟","audio": "ma hazehe","text": "مَا هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذِهِ مَدِينَةٞ","audio": "mahazamadena","text": "هَذِهِ مَدِينَةٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "madena","correctDropZone": "dz4","scale": "4","path": "/madena.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذَا مَسْجِدٞ","audio": "mahazamasged","text": "هَذَا مَسْجِدٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "masjed","correctDropZone": "dz4","scale": "4","path": "/masjed.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذِهِ؟","audio": "ma hazehe","text": "مَا هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذِهِ ذِرَاعٞ","audio": "mahazazera3","text": "هَذِهِ ذِرَاعٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "arm","correctDropZone": "dz4","scale": "4","path": "/arm.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَا هَذِهِ؟","audio": "ma hazehe","text": "مَا هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذِهِ أُذُنٞ","audio": "mahazaozon-2","text": "هَذِهِ أُذُنٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "ozen","correctDropZone": "dz4","scale": "4","path": "/Ozen.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذِهِ؟","audio": "ma hazehe","text": "مَا هَذِهِ؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذِهِ نَافِذَةٞ","audio": "mahazanafeza","text": "هَذِهِ نَافِذَةٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "window","correctDropZone": "dz4","scale": "4","path": "/window.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَنْ هَذَا؟","audio": "man haza","text": "مَنْ هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذَا تِلْمِيذٞ","audio": "mahazatelmez","text": "هَذَا تِلْمِيذٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "student","correctDropZone": "dz4","scale": "4","path": "/student.png"
+            }
+        ]
+    }],
+    [{
+        "pieces": [
+            {"x": 880,"y": 220,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 210,"w": 500,"key": "هَذَا رُمَّانٞ","audio": "mahazaroman","text": "هَذَا رُمَّانٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 316,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 316,"h": 220,"key": "roman","correctDropZone": "dz4","scale": "4","path": "/Roman.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 460,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 450,"w": 500,"key": "هَذَا زَرْعٞ","audio": "mahazazar3","text": "هَذَا زَرْعٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 556,"w": 1280,"key": "mahazaframe1","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 556,"h": 220,"key": "zar3","correctDropZone": "dz4","scale": "4","path": "/Zar3.png"
+            }
+        ]
+    },
+    {
+        "pieces": [
+            {"x": 880,"y": 720,"w": 500,"key": "مَا هَذَا؟","audio": "ma haza","text": "مَا هَذَا؟","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "110px","fontFamily": "quranic2","paddingB": 30
+            },
+            {"x": 160,"y": 710,"w": 500,"key": "هَذَا جَرَادٞ","audio": "mahazagarad","text": "هَذَا جَرَادٞ","correctDropZone": "dz4","scale": "4","color": "#000000","float": false,"fontSize": "130px","fontFamily": "quranic2","paddingB": 30
+            }
+        ],
+        "frames": [
+            {"x": 740,"y": 816,"w": 1280,"key": "mahazaframe","correctDropZone": "dz4","scale": "4"
+            }
+        ],
+        "images": [
+            {"x": 740,"y": 816,"h": 220,"key": "grad","correctDropZone": "dz4","scale": "4","path": "/Grad.png"
+            }
+        ]
+    }
+]
+        ]
+      }
+    ]
+  }
+]

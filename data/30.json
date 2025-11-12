@@ -1,0 +1,313 @@
+[ 
+    {
+        "pageid":"30",
+        "backgroudimage":"/background1.jpg",
+        "unitTitles":{
+          "Unittitle":"حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+          "unitname":"أَسْمَاءُ الحُرُوفِ",
+          "unitnumber":"الوَحْدَةُ الأُولَى"
+        },
+    "minigames":{
+      "title": "العاب حرف الزاي",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "30_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "30_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "30_AppleTree.json"
+        }
+      ]
+    },
+        "exercisenames":["letterspathPhaser","PhaserLetterBoard","BaloonPhaser"],
+        "autoreader": [ 
+          "pagetitleaudios/6/1.mp3",
+          "pagetitleaudios/6/2.mp3",
+          "/audio/agoz.mp3",
+          "/audio/zabad.mp3",
+          "/audio/zayton.mp3",
+          "pagetitleaudios/30/1.mp3"
+        ],
+        "exersices":[ 
+            {
+    "type": "letterspathPhaser",
+    "display": "column",
+    "canvasTrue": true,
+    "canvas": {
+        "targetImg": "/alphas/18.png"
+    },
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "1",
+        "titlearabic": "لَوِّنْ ثُمَّ ٱقْرَأْ وَٱكْتُبْ.",
+        "titleenglish": "Color, then read and write.",
+        "audio": "pagetitleaudios/6/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "2/4"
+    },
+    "path": "/phasercoloring/",
+    "images": [
+        {
+            "key": "zay",
+            "x": 370,
+            "y": 560,
+            "w": 1280,
+            "h": 740
+        }
+    ],
+    "imagesMeta": [],
+    "images0Extras": [],
+    "images1Extras": [],
+    "images2Extras": [],
+    "images3Extras": [],
+    "images4Extras": [],
+    "images5Extras": [],
+    "images6Extras": [],
+    "images7Extras": [],
+    "images8Extras": [],
+    "images9Extras": [],
+    "images10Extras": [],
+    "images11Extras": [],
+    "images12Extras": [],
+    "images13Extras": [],
+    "images14Extras": [],
+    "images15Extras": [],
+    "images16Extras": [],
+    "images17Extras": [],
+    "images18Extras": [],
+    "areas": [
+    {
+        "x": 482,
+        "y": 358,
+        "w": 493,
+        "h": 527,
+        "tolerance": 50,
+        "points": [
+            {
+                "x": 792,
+                "y": 408
+            },
+            {
+                "x": 925,
+                "y": 605
+            },
+            {
+                "x": 792,
+                "y": 835
+            },
+            {
+                "x": 532,
+                "y": 825
+            }
+        ]
+    },
+    {
+        "x": 752,
+        "y": 190,
+        "w": 184,
+        "h": 167,
+        "tolerance": 50,
+        "dot": true,
+        "points": [
+            {
+                "x": 802,
+                "y": 240
+            },
+            {
+                "x": 886,
+                "y": 307
+            }
+        ]
+    }
+],
+    "audio": {
+        "key": "audio1",
+        "file": "ز"
+    }
+},
+            {    
+              "type":"PhaserLetterBoard",
+              "display":"column",
+              "layout": {
+                "direction": "vertical", 
+                "fit": "full"            
+              },
+              "board":"/frame_board.png",
+              "titles":{ 
+                "id":"2",
+                "titlearabic": "ٱقْرَأْ وَٱكْتُبِ ٱلْحَرْفَ ٱلنَّاقِصَ.",
+                "titleenglish": "Read and write the missing letters.",
+                "audio":"pagetitleaudios/6/2.mp3",
+                "fontsize":"1.1vh"
+              },
+                 "size":{
+                    "gridcol":"span 2",
+                    "gridrow":"4/5",
+                    "offsetY":"0%"
+                },
+              "path":"/phaserwords/",
+              "questions":[
+    {
+        "areas": [
+            {
+                "letter": "ز",
+                "x": 900,
+                "y": 740,
+                "w": 300,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ز",
+                "requiredStrokes": 2,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "agoz_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "old",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "agoz",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ز",
+                "x": 1108,
+                "y": 740,
+                "w": 160,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ز",
+                "requiredStrokes": 2,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "zabad_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "zobd",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "zabad",
+                "path": "/"
+            }
+        ]
+    },
+    {
+        "areas": [
+            {
+                "letter": "ز",
+                "x": 1180,
+                "y": 740,
+                "w": 200,
+                "h": 200,
+                "minStroke": 70,
+                "fontsize": 200,
+                "color": "#108673",
+                "letterAud": "ز",
+                "requiredStrokes": 2,
+                "yOffset": true
+            }
+        ],
+        "frames": [
+            {
+                "key": "zayton_F",
+                "x": 750,
+                "y": 550,
+                "w": 1080,
+                "h": 900
+            }
+        ],
+        "images": [
+            {
+                "key": "zayton",
+                "x": 520,
+                "y": 550,
+                "w": 680,
+                "h": 600,
+                "audio": "zayton",
+                "path": "/"
+            }
+        ]
+    }
+]
+  
+          },
+           {
+    "type": "BaloonPhaser",
+    "display": "column",
+    "layout": {
+        "direction": "vertical",
+        "fit": "full"
+    },
+    "titles": {
+        "id": "3",
+        "titlearabic": "مَيِّزْ حَرْفَ الزَّاي.",
+        "titleenglish": "Identify the letter (ز)",
+        "audio": "pagetitleaudios/30/1.mp3"
+    },
+    "size": {
+        "gridcol": "span 2",
+        "gridrow": "5",
+                    "offsetY":"-17%"
+    },
+    "Baloons": [
+       {"x": 110,  "y": 730, "key": "B1",  "audio": "", "iscorrect": "false", "letter": "ج", "textOffset": "+18" },
+       {"x": 243,  "y": 480, "key": "B2",  "audio": "", "iscorrect": "true",  "letter": "ز" },
+       {"x": 376,  "y": 730, "key": "B3",  "audio": "", "iscorrect": "false", "letter": "ح" },
+       {"x": 510,  "y": 480, "key": "B4",  "audio": "", "iscorrect": "false", "letter": "ث" },
+       {"x": 643,  "y": 730, "key": "B5",  "audio": "", "iscorrect": "false", "letter": "د" },
+       {"x": 776,  "y": 480, "key": "B6",  "audio": "", "iscorrect": "true",  "letter": "ز" },
+       {"x": 910,  "y": 730, "key": "B7",  "audio": "", "iscorrect": "false", "letter": "ر" },
+       {"x": 1043, "y": 480, "key": "B8",  "audio": "", "iscorrect": "false", "letter": "ب" },
+       {"x": 1176, "y": 730, "key": "B9",  "audio": "", "iscorrect": "true",  "letter": "ز" },
+       {"x": 1310, "y": 480, "key": "B10", "audio": "", "iscorrect": "false", "letter": "خ", "textOffset": "-18" }
+    ]
+}
+
+        ]
+    }
+]
+
+    

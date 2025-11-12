@@ -1,0 +1,132 @@
+[
+  {
+    "pageid": "7",
+    "backgroudimage": "/background2.jpg",
+    "unitTitles": {
+      "Unittitle": "حُرُوفُ الْهِجَاءِ الْعَرَبِيِّةِ",
+      "unitname": "أَسْمَاءُ الحُرُوفِ",
+      "unitnumber": "الوَحْدَةُ الأُولَى"
+    },
+    "minigames":{
+      "title": "العاب حرف الغين",
+      "games": [
+        { 
+          "title": "Fishing",
+          "thumbnail_image_url": "minigames/assets/thumbnails/fishingThumb.png", 
+          "jsonFile": "50_fishing.json"
+        },
+        { 
+          "title": "Airplane",
+          "thumbnail_image_url": "minigames/assets/thumbnails/planeThumb.png", 
+          "jsonFile": "50_airplane.json"
+        },
+        { 
+          "title": "Apple Tree",
+          "thumbnail_image_url": "minigames/assets/thumbnails/treeThumb.png", 
+          "jsonFile": "50_AppleTree.json"
+        }
+      ]
+    },
+    "exercisenames": [
+      "PhaserQuran"
+    ],
+    "exersices": [
+      {
+        "type": "PhaserQuran",
+        "display": "column",
+        "layout": {
+          "direction": "vertical",
+          "fit": "full"
+        },
+        "board": "/frame_board.png",
+        "titles": {
+          "id": "1",
+          "titlearabic": ".اِسْتَمِعْ وَ ضَعْ خَطًّا تَحْتَ حَرْفِ الغَيْنْ",
+          "titleenglish": "Listen and underline the letter (غ).",
+          "audio": "pagetitleaudios/51/1.mp3",
+          "fontsize": "1.1vh"
+        },
+        "size": {
+          "gridcol": "span 2",
+          "gridrow": "2/6",
+          "offsetY":"0px"
+        },
+        "path": "/quran_audio/51/",
+        "letter":"غ",
+        "questions": [
+          {
+            "quranaudio": "51-1",
+            "ayaverse": "سورة البقرة آية 250",
+            "ayaverseEnglish": "Surah Al-Baqarah Verse 250",
+            "areas": [
+              {
+                "letterN":"غ", "letter": "غۡ", "x": 250, "y": 520, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 90, "color": "#DB2A50", "audio": "ghain" }
+            ],
+            "frames": [
+              { "key": "1", "text": "وَلَمَّا بَرَزُواْ لِجَالُوتَ وَجُنُودِهِۦ قَالُواْ رَبَّنَآ أَفۡرِ   عَلَيۡنَا﴿", "x": 720, "y": 470, "w": 1380, "h": 170, "time": 16000, "fontsize": 90 },
+              { "key": "1", "text": "﴾صَبۡرٗا وَثَبِّتۡ أَقۡدَامَنَا وَٱنصُرۡنَا عَلَى ٱلۡقَوۡمِ ٱلۡكَٰفِرِينَ ٢٥٠", "x": 720, "y": 650, "w": 1440, "h": 160, "time": 15000, "fontsize": 90 }
+            ]
+          },
+          {
+            "quranaudio": "51-2",
+            "ayaverse": "سورة آل عمران آية 8",
+            "ayaverseEnglish": "Surah Al Imran Verse 8",
+            "areas": [
+              {
+                "letterN":"غ", "letter": "غۡ", "x": 880, "y": 520, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "ghain" }
+            ],
+            "frames": [
+              { "key": "1", "text": "رَبَّنَا لَا تُزِ    قُلُوبَنَا بَعۡدَ إِذۡ هَدَيۡتَنَا﴿", "x": 740, "y": 470, "w": 900, "h": 180, "time": 9000, "fontsize": 85 },
+              { "key": "1", "text": "﴾وَهَبۡ لَنَا مِن لَّدُنكَ رَحۡمَةًۚ إِنَّكَ أَنتَ ٱلۡوَهَّابُ ٨", "x": 740, "y": 650, "w": 1200, "h": 180, "time": 15000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "51-3",
+            "ayaverse": "سورة الأعراف آية 200",
+            "ayaverseEnglish": "Surah Al-A'raf Verse 200",
+            "areas": [
+              {
+                "letterN":"غ", "letter": "غٞ", "x": 360, "y": 550, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "ghain" }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 895, "y": 526, "w": 45, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              { "key": "1", "text": "  وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيۡطَٰنِ نَزۡ﴿", "x": 740, "y": 500, "w": 820, "h": 165, "time": 9000, "fontsize": 85 },
+              { "key": "1", "text": "﴾فَٱسۡتَعِذۡ بِٱللَّهِۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ ٢٠٠", "x": 740, "y": 640, "w": 880, "h": 150, "time": 11000, "fontsize": 85 }
+            ]
+          },
+          {
+            "quranaudio": "51-4",
+            "ayaverse": "سورة الرحمن آية 30-32",
+            "ayaverseEnglish": "Surah Ar-Rahman Verse 30-32",
+            "areas": [
+              {
+                "letterN":"غ", "letter": "غُ", "x": 547, "y": 550, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 75, "color": "#DB2A50", "audio": "ghain" }
+            ],
+            "frames": [
+              { "key": "1", "text": "فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ ٣٠ سَنَفۡرُ   لَكُمۡ أَيُّهَ ٱلثَّقَلَانِ ٣١﴿", "x": 740, "y": 500, "w": 1460, "h": 140, "time": 21000, "fontsize": 75 },
+              { "key": "1", "text": "﴾فَبِأَيِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ ٣٢", "x": 740, "y": 640, "w": 800, "h": 140, "time": 11000, "fontsize": 75 }
+            ]
+          },
+          {
+            "quranaudio": "51-5",
+            "ayaverse": "سورة الصف آية 5",
+            "ayaverseEnglish": "Surah As-Saff Verse 5",
+            "areas": [
+              {
+                "letterN":"غ", "letter": "غَ", "x": 1300, "y": 690, "w": 70, "h": 170, "minStroke": 20, "alpha": 1, "fontsize": 85, "color": "#DB2A50", "audio": "ghain" }
+            ],
+             "otherAreas": [
+              {  "letter": "بـ", "x": 218, "y": 522, "w": 45, "h": 180,  "message":"!اختر الشكل المنفصل", "alpha": 1, "fontsize": 95,"color": "#DB2A50"}
+            ],
+            "frames": [
+              { "key": "1", "text": "وَقَد تَّعۡلَمُونَ أَنِّي رَسُولُ ٱللَّهِ إِلَيۡكُمۡۖ فَلَمَّا زَاغُوٓاْ﴿", "x": 740, "y": 500, "w": 1180, "h": 130, "time": 14000, "fontsize": 85 },
+              { "key": "1", "text": "﴾أَزَا   ٱللَّهُ قُلُوبَهُمۡۚ وَٱللَّهُ لَا يَهۡدِي ٱلۡقَوۡمَ ٱلۡفَٰسِقِينَ ٥", "x": 740, "y": 640, "w": 1300, "h": 180, "time": 14000, "fontsize": 85 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
